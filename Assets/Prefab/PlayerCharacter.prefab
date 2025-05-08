@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 3770926119758637391}
   - component: {fileID: 1205502596083573249}
-  - component: {fileID: 4880929086194941133}
   - component: {fileID: 7224761311315494841}
   - component: {fileID: 4863195253173120097}
+  - component: {fileID: 6160597435787440881}
   m_Layer: 0
   m_Name: PlayerCharacter
   m_TagString: Untagged
@@ -87,116 +87,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
---- !u!114 &4880929086194941133
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4269755183884356795}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 38ebeaaf17839cd41aec20d8f38687eb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MoveAction:
-    m_Name: Move
-    m_Type: 0
-    m_ExpectedControlType: Button
-    m_Id: 1eabd59b-c13b-480e-9399-0e4393736341
-    m_Processors: 
-    m_Interactions: 
-    m_SingletonActionBindings:
-    - m_Name: 2D Vector
-      m_Id: de96cbe8-709d-44a2-a259-536d4af2edaf
-      m_Path: 2DVector
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Move
-      m_Flags: 4
-    - m_Name: up
-      m_Id: d0cf8a09-5265-419b-8260-84c1a9cbe12a
-      m_Path: <Keyboard>/w
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Move
-      m_Flags: 8
-    - m_Name: down
-      m_Id: c4001b0b-2395-4a7f-8ff5-934248fef0d1
-      m_Path: <Keyboard>/s
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Move
-      m_Flags: 8
-    - m_Name: left
-      m_Id: fe3186df-f065-4e3d-878b-47dc3a6f1e13
-      m_Path: <Keyboard>/a
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Move
-      m_Flags: 8
-    - m_Name: right
-      m_Id: ec84aa4a-a3ee-4e17-8c58-f57ea7dedbf7
-      m_Path: <Keyboard>/d
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Move
-      m_Flags: 8
-    m_Flags: 0
-  MoveActionwasd:
-    m_Name: Move Actionwasd
-    m_Type: 0
-    m_ExpectedControlType: 
-    m_Id: c367b7f6-97b6-4f9d-8b2f-24d63ae6f293
-    m_Processors: 
-    m_Interactions: 
-    m_SingletonActionBindings:
-    - m_Name: 2D Vector
-      m_Id: b90fcf89-0d1b-413d-9991-967dc36b0dc2
-      m_Path: 2DVector
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Move Actionwasd
-      m_Flags: 4
-    - m_Name: up
-      m_Id: a480f57f-8417-4d4b-8af2-591828cca42c
-      m_Path: <Keyboard>/upArrow
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Move Actionwasd
-      m_Flags: 8
-    - m_Name: down
-      m_Id: f53409ff-3047-45d0-a542-2f74829b92ad
-      m_Path: <Keyboard>/downArrow
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Move Actionwasd
-      m_Flags: 8
-    - m_Name: left
-      m_Id: 7fcd0c87-24ce-4f05-b1d7-7d1e073e0788
-      m_Path: <Keyboard>/leftArrow
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Move Actionwasd
-      m_Flags: 8
-    - m_Name: right
-      m_Id: cf3de66c-a081-4bfe-89d7-1ee9d5afe976
-      m_Path: <Keyboard>/rightArrow
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Move Actionwasd
-      m_Flags: 8
-    m_Flags: 0
 --- !u!50 &7224761311315494841
 Rigidbody2D:
   serializedVersion: 4
@@ -269,3 +159,115 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.22, y: 0.77861786}
   m_EdgeRadius: 0
+--- !u!114 &6160597435787440881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4269755183884356795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c125db3296ed0e449de4ce5b1a56a3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MoveAction:
+    m_Name: Move
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 2be30e09-8af4-44b4-9d7f-a6fe61c4a4dd
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 2D Vector
+      m_Id: d5895b8b-847d-474e-b2e8-3a2fc32f83cb
+      m_Path: 2DVector
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move
+      m_Flags: 4
+    - m_Name: up
+      m_Id: 7555a3c6-ccba-4a32-b99b-e2c9635a0cc8
+      m_Path: <Keyboard>/upArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move
+      m_Flags: 8
+    - m_Name: down
+      m_Id: 3cdf6a5a-850f-4461-ba16-44222c704c17
+      m_Path: <Keyboard>/downArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move
+      m_Flags: 8
+    - m_Name: left
+      m_Id: d2ecbb77-3191-4ca7-902b-1e05522049ef
+      m_Path: <Keyboard>/leftArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move
+      m_Flags: 8
+    - m_Name: right
+      m_Id: 65b8127c-4910-413c-859d-794de7366a92
+      m_Path: <Keyboard>/rightArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move
+      m_Flags: 8
+    m_Flags: 0
+  MoveActionwasd:
+    m_Name: Move Actionwasd
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: c628534e-9f63-46e3-98bb-bf24baa15461
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 2D Vectorwasd
+      m_Id: b7dfc3d9-dffe-4c48-8a6e-fbe314557df0
+      m_Path: 2DVector
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move Actionwasd
+      m_Flags: 4
+    - m_Name: up
+      m_Id: eceb59b3-984b-4ab1-9297-9dcc441873d4
+      m_Path: <Keyboard>/w
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move Actionwasd
+      m_Flags: 8
+    - m_Name: down
+      m_Id: 7a76d335-9640-4a42-8176-3071c06fa72a
+      m_Path: <Keyboard>/s
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move Actionwasd
+      m_Flags: 8
+    - m_Name: left
+      m_Id: a373cc47-073e-45c2-88bf-3d4193f86ecb
+      m_Path: <Keyboard>/a
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move Actionwasd
+      m_Flags: 8
+    - m_Name: right
+      m_Id: cf3a78b4-de1c-413c-8a41-42a9de275349
+      m_Path: <Keyboard>/d
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move Actionwasd
+      m_Flags: 8
+    m_Flags: 0
+  speed: 3
+  maxHealth: 5
