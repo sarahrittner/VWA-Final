@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 
 public class PlayerController : MonoBehaviour
@@ -66,24 +67,31 @@ public class PlayerController : MonoBehaviour
   }
 
 
-  public void ChangeHealth (int amount)
-  {
-     if (amount < 0)
-       {
-           if (isInvincible)
-               return;
-          
-           isInvincible = true;
-           damageCooldown = timeInvincible;
-       }
+   public void ChangeHealth(int amount)
+   {
+      if (amount < 0)
+      {
+         if (isInvincible)
+            return;
+
+         isInvincible = true;
+         damageCooldown = timeInvincible;
+      }
 
 
-     currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
-     float healthPercentage = (float)currentHealth / maxHealth;
-        UIHandler1.instance.SetHealthValue(healthPercentage);
-        Debug.Log("Player health changed. Current health: " + currentHealth);
+      currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
+      Debug.Log("Player health changed. Current health: " + currentHealth);
 
-  }
+      if (currentHealth <= 0)
+      {
+         Die();
+      }
 
+   }
 
+   public void Die()
+   {
+         Debug.Log("Player has died.");
+         SceneManager.LoadScene("dead");
+   }
 }
