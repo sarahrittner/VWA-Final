@@ -1,8 +1,11 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Callbacks;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
+using UnityEngine.UIElements;
 
 
 public class PlayerController : MonoBehaviour
@@ -12,7 +15,9 @@ public class PlayerController : MonoBehaviour
   public InputAction MoveActionwasd;
   Rigidbody2D rigidbody2d;
   Vector2 move;
-  public float speed = 3.0f;
+   public float speed = 3.0f;
+  
+
 
 
   // Variables related to the health system
@@ -27,6 +32,7 @@ public class PlayerController : MonoBehaviour
   float damageCooldown;
 
 
+
   // Start is called before the first frame update
   void Start()
   {
@@ -35,20 +41,22 @@ public class PlayerController : MonoBehaviour
      rigidbody2d = GetComponent<Rigidbody2D>();
 
 
-     currentHealth = maxHealth;
+      currentHealth = maxHealth;
+
+
   }
  
   // Update is called once per frame
   void Update()
   {
      move = MoveAction.ReadValue<Vector2>();
-        if (move == Vector2.zero)
-        {
-            move = MoveActionwasd.ReadValue<Vector2>();
-        }
+      if (move == Vector2.zero)
+      {
+         move = MoveActionwasd.ReadValue<Vector2>();
+      }
 
-    
 
+     
 
      if (isInvincible)
        {
