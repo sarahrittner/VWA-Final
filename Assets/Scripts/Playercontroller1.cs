@@ -16,6 +16,8 @@ public class PlayerController : MonoBehaviour
   Rigidbody2D rigidbody2d;
   Vector2 move;
    public float speed = 3.0f;
+
+   private Animator animator;
   
 
 
@@ -42,6 +44,8 @@ public class PlayerController : MonoBehaviour
 
 
       currentHealth = maxHealth;
+
+      animator = GetComponent<Animator>();
 
 
   }
@@ -72,6 +76,20 @@ public class PlayerController : MonoBehaviour
   {
      Vector2 position = (Vector2)rigidbody2d.position + move * speed * Time.deltaTime;
      rigidbody2d.MovePosition(position);
+
+       if (move != Vector2.zero)
+       {
+          animator.SetFloat("movex", move.x);
+          animator.SetFloat("movey", move.y);
+            animator.SetBool("isMoving", true);
+
+       }
+      else
+      {
+          animator.SetBool("isMoving", false);
+       }
+       
+  
   }
 
 
