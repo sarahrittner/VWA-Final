@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
-public class Slime : MonoBehaviour
+public class Piggy : MonoBehaviour
 {
     public int maxHealth = 100;
     public int curHealth;
@@ -39,30 +39,13 @@ public class Slime : MonoBehaviour
             case StateMachine.Patrol:
                 Patrol();
                 break;
-            case StateMachine.Engage: 
-                Engage(); 
-                break;
+
             case StateMachine.Evade: 
                 Evade(); 
                 break;
         }
 
-        bool playerSeen = Vector2.Distance(transform.position, player.transform.position) < 5.0f;
 
-        if(!playerSeen && currentState != StateMachine.Patrol && curHealth > (maxHealth * 20) / 100)
-        {
-            currentState = StateMachine.Patrol;
-            path.Clear();
-        }else if(playerSeen && currentState != StateMachine.Engage && curHealth > (maxHealth * 20) / 100)
-        {
-            currentState = StateMachine.Engage;
-            path.Clear();
-        }else if(currentState != StateMachine.Evade && curHealth <= (maxHealth * 20) / 100)
-        {
-            panicMultiplier = 2;
-            currentState = StateMachine.Evade;
-            path.Clear();
-        }
 
         CreatePath();
     }
@@ -75,13 +58,7 @@ public class Slime : MonoBehaviour
         }
     }
 
-    void Engage()
-    {
-        if (path.Count == 0)
-        {
-            path = AStarManager.instance.GeneratePath(currentNode, AStarManager.instance.FindNearestNode(player.transform.position));
-        }
-    }
+
 
     void Evade()
     {
@@ -105,16 +82,4 @@ public class Slime : MonoBehaviour
             }
         }
     }
-
-       void OnTriggerStay2D(Collider2D other)
-   {
-       PlayerController controller = other.GetComponent<PlayerController>();
-
-
-       if (controller != null)
-       {
-           controller.ChangeHealth(-1);
-       }
-       Debug.Log("Player got hit by Slime. Current health: " + controller.health);
-   }
 }
