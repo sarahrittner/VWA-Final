@@ -1,7 +1,11 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Callbacks;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
+using UnityEngine.UIElements;
 
 
 public class PlayerController : MonoBehaviour
@@ -11,7 +15,11 @@ public class PlayerController : MonoBehaviour
   public InputAction MoveActionwasd;
   Rigidbody2D rigidbody2d;
   Vector2 move;
-  public float speed = 3.0f;
+   public float speed = 3.0f;
+
+   private Animator animator;
+  
+
 
 
   // Variables related to the health system
@@ -26,6 +34,7 @@ public class PlayerController : MonoBehaviour
   float damageCooldown;
 
 
+
   // Start is called before the first frame update
   void Start()
   {
@@ -34,20 +43,24 @@ public class PlayerController : MonoBehaviour
      rigidbody2d = GetComponent<Rigidbody2D>();
 
 
-     currentHealth = maxHealth;
+      currentHealth = maxHealth;
+
+      animator = GetComponent<Animator>();
+
+
   }
  
   // Update is called once per frame
   void Update()
   {
      move = MoveAction.ReadValue<Vector2>();
-        if (move == Vector2.zero)
-        {
-            move = MoveActionwasd.ReadValue<Vector2>();
-        }
+      if (move == Vector2.zero)
+      {
+         move = MoveActionwasd.ReadValue<Vector2>();
+      }
 
-    
 
+     
 
      if (isInvincible)
        {
@@ -63,27 +76,48 @@ public class PlayerController : MonoBehaviour
   {
      Vector2 position = (Vector2)rigidbody2d.position + move * speed * Time.deltaTime;
      rigidbody2d.MovePosition(position);
-  }
 
-
-  public void ChangeHealth (int amount)
-  {
-     if (amount < 0)
+       if (move != Vector2.zero)
        {
-           if (isInvincible)
-               return;
-          
-           isInvincible = true;
-           damageCooldown = timeInvincible;
+          animator.SetFloat("movex", move.x);
+          animator.SetFloat("movey", move.y);
+            animator.SetBool("isMoving", true);
+
        }
-
-
-     currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
-     float healthPercentage = (float)currentHealth / maxHealth;
-        UIHandler1.instance.SetHealthValue(healthPercentage);
-        Debug.Log("Player health changed. Current health: " + currentHealth);
-
+      else
+      {
+          animator.SetBool("isMoving", false);
+       }
+       
+  
   }
 
 
+   public void ChangeHealth(int amount)
+   {
+      if (amount < 0)
+      {
+         if (isInvincible)
+            return;
+
+         isInvincible = true;
+         damageCooldown = timeInvincible;
+      }
+
+
+      currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
+      Debug.Log("Player health changed. Current health: " + currentHealth);
+
+      if (currentHealth <= 0)
+      {
+         Die();
+      }
+
+   }
+
+   public void Die()
+   {
+         Debug.Log("Player has died.");
+         SceneManager.LoadScene("dead");
+   }
 }

@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "VWA-Final.sln"
+    "dotnet.defaultSolution": "VWAB.sln"
 }
