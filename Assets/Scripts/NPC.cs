@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 public class NPC : MonoBehaviour
 {
-    public int maxHealth = 100;
+    public int maxHealth = 3;
     public int curHealth;
     public int panicMultiplier = 1;
 

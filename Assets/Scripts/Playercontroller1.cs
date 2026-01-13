@@ -68,6 +68,12 @@ public class PlayerController : MonoBehaviour
            if (damageCooldown < 0)
                isInvincible = false;
        }
+
+      if (Input.GetKeyDown(KeyCode.Space))
+      {
+         animator.SetTrigger("Attack");
+      }
+
    }
 
 
