@@ -49,15 +49,15 @@ public class Slime : MonoBehaviour
 
         bool playerSeen = Vector2.Distance(transform.position, player.transform.position) < 5.0f;
 
-        if(!playerSeen && currentState != StateMachine.Patrol && curHealth > (maxHealth * 20) / 100)
+        if(!playerSeen && currentState != StateMachine.Patrol && curHealth >= 3)
         {
             currentState = StateMachine.Patrol;
             path.Clear();
-        }else if(playerSeen && currentState != StateMachine.Engage && curHealth > (maxHealth * 20) / 100)
+        }else if(playerSeen && currentState != StateMachine.Engage && curHealth >= 3)
         {
             currentState = StateMachine.Engage;
             path.Clear();
-        }else if(currentState != StateMachine.Evade && curHealth <= (maxHealth * 20) / 100)
+        }else if(currentState != StateMachine.Evade && curHealth <= 1)
         {
             panicMultiplier = 2;
             currentState = StateMachine.Evade;
