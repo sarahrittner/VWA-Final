@@ -53,7 +53,7 @@ public class Slime : MonoBehaviour
         {
             currentState = StateMachine.Patrol;
             path.Clear();
-        }else if(playerSeen && currentState != StateMachine.Engage && curHealth >= 3)
+        }else if(playerSeen && currentState != StateMachine.Engage && curHealth >= 2)
         {
             currentState = StateMachine.Engage;
             path.Clear();
