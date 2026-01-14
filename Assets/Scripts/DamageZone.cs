@@ -14,6 +14,6 @@ public class DamageZone : MonoBehaviour
        {
            controller.ChangeHealth(-1);
        }
-       Debug.Log("Player is in the damage zone. Current health: " + controller.health);
+       Debug.Log("Player is in the damage zone. Current health: " + controller.currentHealth);
    }
 }

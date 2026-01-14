@@ -10,12 +10,13 @@ public class HealthCollectible : MonoBehaviour
 
          if (controller != null)
         {
-            if (controller.health < controller.maxHealth)
+            if (controller.currentHealth < controller.maxHealth)
             {
                 controller.ChangeHealth(1);
                 Destroy(gameObject);
+                Debug.Log("Player collected a health item. Current health: " + controller.currentHealth);
             }
-            Debug.Log("Player collected a health item. Current health: " + controller.health);
+            
         }
       
    

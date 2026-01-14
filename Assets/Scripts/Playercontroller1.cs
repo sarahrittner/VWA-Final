@@ -18,68 +18,77 @@ public class PlayerController : MonoBehaviour
    public float speed = 3.0f;
 
    private Animator animator;
+
+   public Transform AttackPoint;
+   public float AttackRange;
+   public LayerMask EnemyLayers;
+   public int AttackDamage;
   
 
-
-
   // Variables related to the health system
-  public int maxHealth = 5;
-  int currentHealth;
-  public int health { get { return currentHealth; }}
+  public int maxHealth;
+  public int currentHealth;
+
 
 
   // Variables related to temporary invincibility
-  public float timeInvincible = 2.0f;
+  public float TimeInvincible;
   bool isInvincible;
   float damageCooldown;
 
 
 
+
   // Start is called before the first frame update
+  //Bewegung ist an, Leben sind voll
   void Start()
   {
      MoveAction.Enable();
      MoveActionwasd.Enable();
      rigidbody2d = GetComponent<Rigidbody2D>();
 
-
       currentHealth = maxHealth;
 
       animator = GetComponent<Animator>();
-
-
   }
  
   // Update is called once per frame
   void Update()
   {
-     move = MoveAction.ReadValue<Vector2>();
+      move = MoveActionwasd.ReadValue<Vector2>();
       if (move == Vector2.zero)
       {
-         move = MoveActionwasd.ReadValue<Vector2>();
+         move += MoveAction.ReadValue<Vector2>();
       }
 
 
-     
 
      if (isInvincible)
        {
            damageCooldown -= Time.deltaTime;
            if (damageCooldown < 0)
+            {  
                isInvincible = false;
+            }
        }
+
+
 
       if (Input.GetKeyDown(KeyCode.Space))
       {
-         animator.SetTrigger("Attack");
+         Attack();
       }
 
    }
 
 
+
+
 // FixedUpdate has the same call rate as the physics system
   void FixedUpdate()
   {
+     
+     
      Vector2 position = (Vector2)rigidbody2d.position + move * speed * Time.deltaTime;
      rigidbody2d.MovePosition(position);
 
@@ -95,7 +104,6 @@ public class PlayerController : MonoBehaviour
           animator.SetBool("isMoving", false);
        }
        
-  
   }
 
 
@@ -104,10 +112,15 @@ public class PlayerController : MonoBehaviour
       if (amount < 0)
       {
          if (isInvincible)
-            return;
+         {
+          return;
+         }
 
+         
          isInvincible = true;
-         damageCooldown = timeInvincible;
+         damageCooldown = TimeInvincible;         
+         
+
       }
 
 
@@ -125,5 +138,33 @@ public class PlayerController : MonoBehaviour
    {
          Debug.Log("Player has died.");
          SceneManager.LoadScene("dead");
+   }
+
+
+   void Attack()
+   {
+      // Play attack animation
+      animator.SetTrigger("Attack");
+
+      Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(AttackPoint.position, AttackRange, EnemyLayers);
+
+      foreach (Collider2D enemy in hitEnemies)
+      {
+         Debug.Log("Du schlägst " + enemy.name);
+         Slime slime = enemy.GetComponent<Slime>();
+         if (slime != null)
+         {
+            slime.TakeDamage(AttackDamage);
+         }
+      }
+  
+   }
+
+   void OnDrawGizmosSelected()
+   {
+      if (AttackPoint == null)
+         return;
+
+      Gizmos.DrawWireSphere(AttackPoint.position, AttackRange);
    }
 }
