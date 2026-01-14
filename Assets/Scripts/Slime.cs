@@ -115,6 +115,24 @@ public class Slime : MonoBehaviour
        {
            controller.ChangeHealth(-1);
        }
-       Debug.Log("Player got hit by Slime. Current health: " + controller.health);
+       Debug.Log("Player got hit by Slime. Current health: " + controller.currentHealth);
    }
+
+    public void TakeDamage(int damage)
+    {
+        curHealth -= damage;
+        Debug.Log("Slime took " + damage + " damage. Current health: " + curHealth);
+
+        if (curHealth <= 0)
+        {
+            Die();
+        }
+    }
+
+    void Die()
+    {
+        Debug.Log("Slime has died.");
+        Destroy(gameObject);
+    }
+
 }
