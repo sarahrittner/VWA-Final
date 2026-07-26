@@ -143,8 +143,9 @@ public class PlayerController : MonoBehaviour
 
    void Attack()
    {
-      // Play attack animation
-      animator.SetTrigger("Attack");
+      // Play attack animation  
+      animator.SetBool("isAttacking", true);
+
 
       Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(AttackPoint.position, AttackRange, EnemyLayers);
 
@@ -158,6 +159,11 @@ public class PlayerController : MonoBehaviour
          }
       }
   
+   }
+
+   public void Attackend()
+   {
+      animator.SetBool("isAttacking", false);
    }
 
    void OnDrawGizmosSelected()
