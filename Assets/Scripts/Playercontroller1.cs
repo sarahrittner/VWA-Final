@@ -14,7 +14,7 @@ public class PlayerController : MonoBehaviour
   public InputAction MoveAction;
   public InputAction MoveActionwasd;
   Rigidbody2D rigidbody2d;
-  Vector2 move;
+  public Vector2 move;
    public float speed = 3.0f;
 
    private Animator animator;
