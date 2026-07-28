@@ -55,11 +55,7 @@ public class PlayerController : MonoBehaviour
   // Update is called once per frame
   void Update()
   {
-      move = MoveActionwasd.ReadValue<Vector2>();
-      if (move == Vector2.zero)
-      {
-         move += MoveAction.ReadValue<Vector2>();
-      }
+
 
 
 
@@ -87,7 +83,11 @@ public class PlayerController : MonoBehaviour
 // FixedUpdate has the same call rate as the physics system
   void FixedUpdate()
   {
-     
+      move = MoveActionwasd.ReadValue<Vector2>();
+      if (move == Vector2.zero)
+      {
+         move += MoveAction.ReadValue<Vector2>();
+      }
      
      Vector2 position = (Vector2)rigidbody2d.position + move * speed * Time.deltaTime;
      rigidbody2d.MovePosition(position);
@@ -148,11 +148,13 @@ public class PlayerController : MonoBehaviour
 
 
       Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(AttackPoint.position, AttackRange, EnemyLayers);
+      
 
       foreach (Collider2D enemy in hitEnemies)
       {
+
          Debug.Log("Du schlägst " + enemy.name);
-         Slime slime = enemy.GetComponent<Slime>();
+         slimecontroller slime = enemy.GetComponent<slimecontroller>();
          if (slime != null)
          {
             slime.TakeDamage(AttackDamage);
