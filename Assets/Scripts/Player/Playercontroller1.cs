@@ -1,11 +1,10 @@
-using System;
 using System.Collections;
-using System.Collections.Generic;
-using UnityEditor.Callbacks;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
-using UnityEngine.UIElements;
+using UnityEngine.UI;
+
+
 
 
 public class PlayerController : MonoBehaviour
@@ -23,6 +22,14 @@ public class PlayerController : MonoBehaviour
    public float AttackRange;
    public LayerMask EnemyLayers;
    public int AttackDamage;
+
+   private bool isKnockedback;
+
+   public float knockbackForceplayer; // Adjust this value to control the knockback strength
+   public float knockbackDurationslime; // Duration of the knockback effect
+
+    public CapsuleCollider2D cc;
+
   
 
   // Variables related to the health system
@@ -83,26 +90,32 @@ public class PlayerController : MonoBehaviour
 // FixedUpdate has the same call rate as the physics system
   void FixedUpdate()
   {
-      move = MoveActionwasd.ReadValue<Vector2>();
-      if (move == Vector2.zero)
-      {
-         move += MoveAction.ReadValue<Vector2>();
-      }
-     
-     Vector2 position = (Vector2)rigidbody2d.position + move * speed * Time.deltaTime;
-     rigidbody2d.MovePosition(position);
 
-       if (move != Vector2.zero)
-       {
-          animator.SetFloat("movex", move.x);
-          animator.SetFloat("movey", move.y);
+      if (isKnockedback == false)
+      {
+         move = MoveActionwasd.ReadValue<Vector2>();
+
+         if (move == Vector2.zero)
+         {
+         move += MoveAction.ReadValue<Vector2>();
+         }
+   
+         Vector2 position = (Vector2)rigidbody2d.position + move * speed * Time.deltaTime;
+         rigidbody2d.MovePosition(position);
+
+         if (move != Vector2.zero)
+         {
+            animator.SetFloat("movex", move.x);
+            animator.SetFloat("movey", move.y);
             animator.SetBool("isMoving", true);
 
-       }
-      else
-      {
-          animator.SetBool("isMoving", false);
-       }
+         }
+         else
+         {
+            animator.SetBool("isMoving", false);
+         }
+
+      }
        
   }
 
@@ -147,19 +160,15 @@ public class PlayerController : MonoBehaviour
       animator.SetBool("isAttacking", true);
 
 
-      Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(AttackPoint.position, AttackRange, EnemyLayers);
-      
+    Collider2D[] colliders = Physics2D.OverlapCircleAll(AttackPoint.position, AttackRange);
 
-      foreach (Collider2D enemy in hitEnemies)
-      {
-
-         Debug.Log("Du schlägst " + enemy.name);
-         slimecontroller slime = enemy.GetComponent<slimecontroller>();
-         if (slime != null)
-         {
-            slime.TakeDamage(AttackDamage);
-         }
-      }
+    if (System.Array.Exists(colliders, collider => collider == cc))
+    {
+        Debug.Log("Der Collider ist innerhalb des Kreises!");
+        slimecontroller slime = cc.GetComponent<slimecontroller>();
+        slime.TakeDamage(AttackDamage);
+        slime.Knockback(transform, knockbackForceplayer, slime.afterknockbackslime, knockbackDurationslime);
+    }
   
    }
 
@@ -174,5 +183,23 @@ public class PlayerController : MonoBehaviour
          return;
 
       Gizmos.DrawWireSphere(AttackPoint.position, AttackRange);
+   }
+
+
+   public void Knockback(Transform enemy, float knockbackForce, float knockbackDuration)
+   {
+      isKnockedback = true;
+
+      Vector2 knockbackDirection = (transform.position - enemy.position).normalized;
+      rigidbody2d.linearVelocity = knockbackDirection * knockbackForce;
+
+      Debug.Log("Player is knocked back.");
+      StartCoroutine(KnockbackCoroutine(knockbackDuration));
+   }
+
+   IEnumerator KnockbackCoroutine(float knockbackDuration)
+   {
+      yield return new WaitForSeconds(knockbackDuration);
+      isKnockedback = false;
    }
 }
