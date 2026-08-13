@@ -30,6 +30,9 @@ public class PlayerController : MonoBehaviour
 
     public CapsuleCollider2D cc;
 
+
+    public slimecontroller slime;
+
   
 
   // Variables related to the health system
@@ -80,6 +83,11 @@ public class PlayerController : MonoBehaviour
       if (Input.GetKeyDown(KeyCode.Space))
       {
          Attack();
+      }
+
+      if (Input.GetKeyDown(KeyCode.E))
+      {
+         Interact();
       }
 
    }
@@ -201,5 +209,24 @@ public class PlayerController : MonoBehaviour
    {
       yield return new WaitForSeconds(knockbackDuration);
       isKnockedback = false;
+   }
+
+
+   void Interact()
+   {
+    Collider2D[] colliders = Physics2D.OverlapCircleAll(AttackPoint.position, AttackRange);
+
+    Debug.Log("Interacting with objects in range.");
+
+    foreach (Collider2D collider in colliders)
+    {
+        Glocke glocke = collider.GetComponent<Glocke>();
+        if (glocke != null)
+        {
+            glocke.Interactg();
+            return; // Exit after interacting with the first Glocke found
+        }
+    }
+   
    }
 }
