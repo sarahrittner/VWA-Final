@@ -1,16 +1,10 @@
 using UnityEngine;
 
-public class itamSO : MonoBehaviour
-{
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+[CreateAssetMenu(fileName = "New Item")]
+public class itamSO : ScriptableObject
+{
+    public string itemName;
+    public Sprite itemSprite;
+    public string itemDescription;
 }
