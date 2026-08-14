@@ -11,7 +11,8 @@ Material:
   m_Shader: {fileID: 4800000, guid: fe393ace9b354375a9cb14cdbbc28be4, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
+  m_ValidKeywords:
+  - OUTLINE_ON
   m_InvalidKeywords: []
   m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
@@ -108,7 +109,7 @@ Material:
     - _OutlineSoftness: 0
     - _OutlineUVSpeedX: 0
     - _OutlineUVSpeedY: 0
-    - _OutlineWidth: 0
+    - _OutlineWidth: 0.126
     - _Parallax: 0.02
     - _PerspectiveFilter: 0.875
     - _Reflectivity: 10
@@ -216,6 +217,21 @@ MonoBehaviour:
   m_AtlasPopulationMode: 1
   InternalDynamicOS: 0
   m_GlyphTable:
+  - m_Index: 13
+    m_Metrics:
+      m_Width: 32
+      m_Height: 30
+      m_HorizontalBearingX: 1
+      m_HorizontalBearingY: 59
+      m_HorizontalAdvance: 33
+    m_GlyphRect:
+      m_X: 93
+      m_Y: 35
+      m_Width: 32
+      m_Height: 30
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
   - m_Index: 19
     m_Metrics:
       m_Width: 42
@@ -261,22 +277,11 @@ MonoBehaviour:
     m_Scale: 1
     m_AtlasIndex: 0
     m_ClassDefinitionType: 0
-  - m_Index: 13
-    m_Metrics:
-      m_Width: 32
-      m_Height: 30
-      m_HorizontalBearingX: 1
-      m_HorizontalBearingY: 59
-      m_HorizontalAdvance: 33
-    m_GlyphRect:
-      m_X: 93
-      m_Y: 35
-      m_Width: 32
-      m_Height: 30
-    m_Scale: 1
-    m_AtlasIndex: 0
-    m_ClassDefinitionType: 0
   m_CharacterTable:
+  - m_ElementType: 1
+    m_Unicode: 42
+    m_GlyphIndex: 13
+    m_Scale: 1
   - m_ElementType: 1
     m_Unicode: 48
     m_GlyphIndex: 19
@@ -288,10 +293,6 @@ MonoBehaviour:
   - m_ElementType: 1
     m_Unicode: 8230
     m_GlyphIndex: 2030
-    m_Scale: 1
-  - m_ElementType: 1
-    m_Unicode: 42
-    m_GlyphIndex: 13
     m_Scale: 1
   m_AtlasTextures:
   - {fileID: 28268798066460806}

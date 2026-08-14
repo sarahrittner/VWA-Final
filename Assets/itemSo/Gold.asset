@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d933c9861cf6594fbcf593d8553159f, type: 3}
+  m_Name: Gold
+  m_EditorClassIdentifier: Assembly-CSharp::itamSO
+  itemName: Gold
+  itemSprite: {fileID: -8958593014244047496, guid: ef4851782e3ddd64e82ab58a48585c26, type: 3}
+  itemDescription: sparkle
+  isGold: 1
+  currentHealth: 0
+  maxHealth: 0
+  attackDamage: 0
+  speed: 0
+  duration: 0

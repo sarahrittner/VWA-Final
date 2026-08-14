@@ -26,15 +26,8 @@ public class controllerattackpoint : MonoBehaviour
         {
             transform.localPosition = new Vector3(-0.1f, 0f, 0f);
         }
-
-
         
     }
-
-
-
-
-
 }
 
 

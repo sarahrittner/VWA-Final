@@ -1,4 +1,5 @@
 using UnityEngine;
+using System;
 
 public class Loot : MonoBehaviour
 {
@@ -6,6 +7,8 @@ public class Loot : MonoBehaviour
     public SpriteRenderer spriteRenderer; // Reference to the SpriteRenderer component
     public Animator animator; // Reference to the Animator component
     public int quantity; // Quantity of the item
+    public static event Action<itamSO, int> OnLootPickedUp; // Event to notify when loot is picked up
+
 
     private void OnValidate()
     {
@@ -22,6 +25,7 @@ public class Loot : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             animator.Play("pickup");
+            OnLootPickedUp?.Invoke(item, quantity); // Invoke the event to notify listeners about the loot pickup
 
             // Destroy the loot object after pickup
             Destroy(gameObject, 0.5f);

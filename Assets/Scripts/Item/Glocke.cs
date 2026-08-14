@@ -27,6 +27,7 @@ public class Glocke : MonoBehaviour
             return;
         }
         sequence.PressButton("Left");
+        
     
     }
 }
