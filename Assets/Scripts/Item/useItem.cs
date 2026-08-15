@@ -2,15 +2,24 @@ using UnityEngine;
 
 public class useItem : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public void ApplyItemEffect(itamSO item)
     {
-        
-    }
+        if (item.currentHealth > 0)
+        {
+            // Assuming you have a reference to the player's health script
+            PlayerController playerHealth = FindFirstObjectByType<PlayerController>();
+            if (playerHealth != null)
+            {
+                playerHealth.currentHealth += item.currentHealth;
+                if (playerHealth.currentHealth > playerHealth.maxHealth)
+                {
+                    playerHealth.currentHealth = playerHealth.maxHealth; // Cap health at max
+                }
+            }
+            
+            
+        }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        // Add more conditions for other item effects as needed
     }
 }

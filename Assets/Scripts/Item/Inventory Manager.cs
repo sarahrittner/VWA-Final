@@ -7,6 +7,8 @@ public class InventoryManager : MonoBehaviour
 
     public int gold;
     public TMP_Text tMP_Text;
+    public useItem useItem; // Reference to the useItem script
+
 
     void Start()
     {
@@ -29,7 +31,7 @@ public class InventoryManager : MonoBehaviour
         Loot.OnLootPickedUp -= AddItemToInventory; // Unsubscribe from the loot pickup event
     }
 
-    private void AddItemToInventory(itamSO item, int quantity)
+    public void AddItemToInventory(itamSO item, int quantity)
     {
         // Implement your logic to add the item to the player's inventory
         if (item.isGold)
@@ -63,10 +65,18 @@ public class InventoryManager : MonoBehaviour
 
     public void UseItem(Inventoryslots slot)
     {
-        if (slot.item != null && slot.quantity > 0)
+        if (slot.item != null && slot.quantity >= 0)
         {
             // Implement your logic for using or equipping the item here
             Debug.Log($"Using {slot.item.itemName}");
+            useItem.ApplyItemEffect(slot.item); // Call the method to apply the item's effect
+
+            slot.quantity--; // Decrease the quantity of the item
+            if (slot.quantity <= 0)
+            {
+                slot.item = null; // Clear the item if quantity reaches zero
+            }
+            slot.UpdateUI(); // Update the UI to reflect the changes
 
 
         }

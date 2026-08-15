@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9d933c9861cf6594fbcf593d8553159f, type: 3}
-  m_Name: Apple
+  m_Name: Slime
   m_EditorClassIdentifier: Assembly-CSharp::itamSO
-  itemName: Apple
-  itemSprite: {fileID: -5709444697936806870, guid: c5f233c7830f8e94d9d15769068ccff6, type: 3}
-  itemDescription: apple
+  itemName: Slime
+  itemSprite: {fileID: -245604767892403296, guid: ef4851782e3ddd64e82ab58a48585c26, type: 3}
+  itemDescription: 
   isGold: 0
-  currentHealth: 1
+  currentHealth: 0
   maxHealth: 0
   attackDamage: 0
   speed: 0

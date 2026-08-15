@@ -12,7 +12,7 @@ public class Inventoryslots : MonoBehaviour, IPointerClickHandler
     public int quantity; // Quantity of the item
     public Image image; // Reference to the Image component for displaying the item sprite
     public TMP_Text quantityText; // Reference to the TextMeshProUGUI component for displaying the quantity
-    public InventoryManager inventoryManager; // Reference to the InventoryManager script
+    private InventoryManager inventoryManager; // Reference to the InventoryManager script
 
     private void Start()
     {
@@ -39,7 +39,7 @@ public class Inventoryslots : MonoBehaviour, IPointerClickHandler
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        if (item != null)
+        if (quantity > 0)
         {
             Debug.Log($"Clicked on {item.itemName} with quantity {quantity}");
             // Implement your logic for using or equipping the item here
