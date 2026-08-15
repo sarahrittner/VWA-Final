@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::itamSO
   itemName: Papier
   itemSprite: {fileID: 9213624836457757315, guid: 8d33e18401cd70d45a617b35441e1b05, type: 3}
-  itemDescription: 
+  itemDescription: "nur ein st\xFCck Papier mit ein paar Noten darauf..."
   isGold: 0
-  currentHealth: 0
+  itemHealth: 0
   maxHealth: 0
   attackDamage: 0
   speed: 0

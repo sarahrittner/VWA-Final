@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::itamSO
   itemName: Gold
   itemSprite: {fileID: -8958593014244047496, guid: ef4851782e3ddd64e82ab58a48585c26, type: 3}
-  itemDescription: sparkle
+  itemDescription: moneyy
   isGold: 1
-  currentHealth: 0
+  itemHealth: 0
   maxHealth: 0
   attackDamage: 0
   speed: 0

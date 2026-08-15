@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::itamSO
   itemName: Slime
   itemSprite: {fileID: -245604767892403296, guid: ef4851782e3ddd64e82ab58a48585c26, type: 3}
-  itemDescription: 
+  itemDescription: ew, das klebt
   isGold: 0
-  currentHealth: 0
+  itemHealth: 0
   maxHealth: 0
   attackDamage: 0
   speed: 0
