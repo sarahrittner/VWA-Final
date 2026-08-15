@@ -11,7 +11,7 @@ public class Shop : MonoBehaviour
 
 
     [SerializeField] private SHopManager shopManager; // Reference to the ShopManager script
-    private int[] price; // Array of prices corresponding to the items for sale
+    public int[] price; // Array of prices corresponding to the items for sale
 
 
     public void Initialize(itamSO[] items, int[] prices)

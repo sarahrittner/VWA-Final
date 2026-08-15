@@ -4,6 +4,7 @@ using TMPro;
 using System.Collections.Generic;
 using System;
 using UnityEngine.EventSystems;
+using System.Collections;
 
 
 public class Inventoryslots : MonoBehaviour, IPointerClickHandler
@@ -13,15 +14,42 @@ public class Inventoryslots : MonoBehaviour, IPointerClickHandler
     public Image image; // Reference to the Image component for displaying the item sprite
     public TMP_Text quantityText; // Reference to the TextMeshProUGUI component for displaying the quantity
     private InventoryManager inventoryManager; // Reference to the InventoryManager script
+    private SHopManager shopManager; // Reference to the ShopManager script
+    private PlayerController playerController; // Reference to the PlayerController script
+
+    private Shop shop; // Reference to the Shop script
 
     private void Start()
     {
         inventoryManager = GetComponentInParent<InventoryManager>();
+
+    }
+
+
+    private void OnEnable()
+    {
+        SHopManager.OnShopStateChanged += HandleShopStateChanged; // Subscribe to the shop state change event
+        
+    }
+
+    private void OnDisable()
+    {
+        SHopManager.OnShopStateChanged -= HandleShopStateChanged; // Unsubscribe from the shop state change event
+    }
+
+    private void HandleShopStateChanged(SHopManager shOpManager, bool isOpen)
+    {
+        shopManager = isOpen ? shOpManager : null; // Store the reference to the shop manager when the shop is open        
+
+
     }
 
     public void UpdateUI()
     {
-
+        if (quantity <= 0)
+        {
+            item = null;
+        }
 
         if (item != null)
         {
@@ -45,15 +73,22 @@ public class Inventoryslots : MonoBehaviour, IPointerClickHandler
             // Implement your logic for using or equipping the item here
             if (eventData.button == PointerEventData.InputButton.Left)
             {
-                // Right-click logic (e.g., use or equip the item)
-                Debug.Log($"Right-clicked on {item.itemName}");
-                // Example: Use the item
-                inventoryManager.UseItem(this);
-            }
+                
+                if (shopManager == null)
+                    // If the shop is open, handle the left-click logic for selling the item
+                    Debug.Log($"Left-clicked on {item.itemName} in the inventory.");
+                    shopManager.Sellitem(GetComponent<Shop>()); // Call the Sellitem method in the ShopManager script
+                    quantity--; // Decrease the quantity of the item in the inventory
+                    UpdateUI(); // Update the UI to reflect the changes
+                }   
+
         }
+    
+    
     }
+}
     
 
 
 
-}
+

@@ -11,7 +11,7 @@ public class itamSO : ScriptableObject
     public bool isGold;
 
     [Header("Item Stats")]
-    public int currentHealth;
+    public int itemHealth;
     public int maxHealth;
     public int attackDamage;
     public int speed;

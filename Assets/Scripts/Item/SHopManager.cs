@@ -3,6 +3,10 @@ using UnityEngine;
 using UnityEngine.AdaptivePerformance;
 using UnityEngine.UI;
 using System.Collections;
+using System;
+using TMPro;
+using UnityEngine.EventSystems;
+
 
 public class SHopManager : MonoBehaviour
 {
@@ -10,10 +14,17 @@ public class SHopManager : MonoBehaviour
 
     [SerializeField] private Shop[] shopSlots; // Array of Shopslot components representing the UI slots in the shop
     [SerializeField] private InventoryManager inventoryManager; // Reference to the InventoryManager script
+    public Shop[] shop;
+    private itamSO item; // Reference to the item scriptable object
+
+    public static event Action<SHopManager, bool> OnShopStateChanged; // Event to notify when the shop state changes
 
     public void Start()
     {
         PopulateShopItems();
+        OnShopStateChanged?.Invoke(this, true); // Notify listeners that the shop is open
+
+
     }
 
     public void PopulateShopItems()
@@ -52,11 +63,23 @@ public class SHopManager : MonoBehaviour
             inventoryManager.gold -= price; // Deduct the price from the player's gold
             inventoryManager.tMP_Text.text = inventoryManager.gold.ToString(); // Update the gold display
             inventoryManager.AddItemToInventory(item, 1); // Add the item to the player's inventory
+            Debug.Log($"Bought {item.itemName} for {price} gold.");
         }
         else
         {
             Debug.Log("Not enough gold to buy this item.");
         }
+    }
+
+    public void Sellitem(Shop itemForSale)
+    {
+
+        inventoryManager.gold ++; // Add the price to the player's gold
+        inventoryManager.tMP_Text.text = inventoryManager.gold.ToString(); // Update the gold display
+        Debug.Log("Sold {itemForSale.itemsForSale[0].itemName} for {itemForSale.price[price]} gold.");
+        return; // Exit the method after selling the item
+            
+        
     }
 
 
