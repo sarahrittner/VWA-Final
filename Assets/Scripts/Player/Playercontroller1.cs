@@ -33,6 +33,8 @@ public class PlayerController : MonoBehaviour
 
     public slimecontroller slime;
 
+    public PolygonCollider2D skCollider2D;
+
   
 
   // Variables related to the health system
@@ -218,14 +220,20 @@ public class PlayerController : MonoBehaviour
 
     Debug.Log("Interacting with objects in range.");
 
-    foreach (Collider2D collider in colliders)
+    foreach (Collider2D collider2D in colliders)
     {
-        Glocke glocke = collider.GetComponent<Glocke>();
+        Glocke glocke = collider2D.GetComponent<Glocke>();
         if (glocke != null)
         {
             glocke.Interactg();
             return; // Exit after interacting with the first Glocke found
         }
+
+        Shopkeeper shopkeeper = collider2D.GetComponent<Shopkeeper>();
+        if (collider2D == skCollider2D)
+         {
+            shopkeeper.Interacts();
+         }
     }
    
    }
