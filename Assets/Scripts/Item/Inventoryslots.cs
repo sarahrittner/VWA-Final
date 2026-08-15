@@ -22,6 +22,7 @@ public class Inventoryslots : MonoBehaviour, IPointerClickHandler
     private void Start()
     {
         inventoryManager = GetComponentInParent<InventoryManager>();
+        UpdateUI();
 
     }
 
