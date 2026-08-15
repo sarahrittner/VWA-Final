@@ -70,6 +70,8 @@ public class slimecontroller : MonoBehaviour
 
         }
 
+
+
         
     }
 
@@ -214,7 +216,6 @@ public class slimecontroller : MonoBehaviour
         {
             // Implement logic for when the slime's health reaches zero
 
-            Instantiate(CollectibleHealth, transform.position, Quaternion.identity);
             Destroy(gameObject);            
         }
    }

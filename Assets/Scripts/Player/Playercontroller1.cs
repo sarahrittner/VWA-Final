@@ -34,6 +34,7 @@ public class PlayerController : MonoBehaviour
     public slimecontroller slime;
 
     public PolygonCollider2D skCollider2D;
+    public BoxCollider2D bxCollider2D;
 
   
 
@@ -234,6 +235,10 @@ public class PlayerController : MonoBehaviour
          {
             shopkeeper.Interacts();
          }
+
+       Chest chest = collider2D.GetComponent<Chest>();
+       if (collider2D == bxCollider2D)
+         chest.Interactc();
     }
    
    }

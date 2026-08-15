@@ -1,6 +1,8 @@
 using System.Collections;
+using Unity.VisualScripting;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
+using UnityEngine.Scripting.APIUpdating;
 
 
 
@@ -15,6 +17,11 @@ public class Wandering : MonoBehaviour
     public Vector2 target;
     public float pausedur;
     private bool ispaused;
+    public Animator animator;
+    public CircleCollider2D circleCollider2D;
+    public BoxCollider2D bc;
+    public PlayerController pc;
+
 
     
 
@@ -26,7 +33,7 @@ public class Wandering : MonoBehaviour
 
     private void Awake()
     {
-        rb.GetComponent<Rigidbody2D>();
+        rb = GetComponent<Rigidbody2D>();
     }
 
     private void OnEnable()
@@ -50,7 +57,20 @@ public class Wandering : MonoBehaviour
         Vector2 direction = (target - (Vector2)transform.position).normalized;
         rb.linearVelocity = direction * speed;
 
+        if (ispaused)
+         {
+            animator.SetBool("ismoving", false);
+         }
+        else
+        {
+            animator.SetFloat("movex", direction.x);
+            animator.SetFloat("movey", direction.y);
+            animator.SetBool("ismoving", true);
+        }
 
+
+
+            
     }
 
     IEnumerator PauseandpicknewDestination()
@@ -71,10 +91,36 @@ public class Wandering : MonoBehaviour
         {
             0 => new Vector2(startpos.x - halfwidth, Random.Range(startpos.y - halfheight, startpos.y + halfheight)), //left
             1 => new Vector2(startpos.x + halfwidth, Random.Range(startpos.y - halfheight, startpos.y + halfheight)), //right
-            2 => new Vector2(startpos.y - halfheight, Random.Range(startpos.x - halfwidth, startpos.x + halfwidth)), //bottom
-            _ => new Vector2(startpos.y + halfheight, Random.Range(startpos.x - halfwidth, startpos.x + halfwidth)), //top
+            2 => new Vector2(Random.Range(startpos.x - halfwidth, startpos.x + halfwidth), startpos.y - halfheight), //bottom
+            _ => new Vector2(Random.Range(startpos.x - halfwidth, startpos.x + halfwidth), startpos.y + halfheight), //top
         };
 
     }
 
-}
+    public void OnCollisionEnter2D(Collision2D collision)
+    {
+        StartCoroutine(PauseandpicknewDestination());
+        
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject == pc.gameObject)
+        {
+            ispaused = true;
+            rb.linearVelocity = Vector2.zero;
+            animator.SetBool("ismoving", false);
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.gameObject == pc.gameObject)
+        {
+            ispaused = false;
+            StartCoroutine(PauseandpicknewDestination());
+         
+        }
+    }
+} 
+

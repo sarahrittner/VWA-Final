@@ -1,0 +1,1625 @@
+fileFormatVersion: 2
+guid: aa684fc9755f9cc47811285b32987686
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4751054902984156960
+    second: Lumberjack_Jackleft_0
+  - first:
+      213: -3279611025975701127
+    second: Lumberjack_Jackleft_1
+  - first:
+      213: -5915967094206718889
+    second: Lumberjack_Jackleft_2
+  - first:
+      213: -5661716277846398320
+    second: Lumberjack_Jackleft_3
+  - first:
+      213: -6040210609988261795
+    second: Lumberjack_Jackleft_4
+  - first:
+      213: 3317856122938828464
+    second: Lumberjack_Jackleft_5
+  - first:
+      213: 1749423717461145303
+    second: Lumberjack_Jackleft_6
+  - first:
+      213: -7512788293378396739
+    second: Lumberjack_Jackleft_7
+  - first:
+      213: 1576163933178350426
+    second: Lumberjack_Jackleft_8
+  - first:
+      213: -6619634937585548108
+    second: Lumberjack_Jackleft_9
+  - first:
+      213: -8897770899914972488
+    second: Lumberjack_Jackleft_10
+  - first:
+      213: -7245709692399893042
+    second: Lumberjack_Jackleft_11
+  - first:
+      213: -3914670003933527517
+    second: Lumberjack_Jackleft_12
+  - first:
+      213: 6484478056447585510
+    second: Lumberjack_Jackleft_13
+  - first:
+      213: -3809784281007131635
+    second: Lumberjack_Jackleft_14
+  - first:
+      213: -4959334662523181251
+    second: Lumberjack_Jackleft_15
+  - first:
+      213: 2984551288131267998
+    second: Lumberjack_Jackleft_16
+  - first:
+      213: -7994021197331500808
+    second: Lumberjack_Jackleft_17
+  - first:
+      213: 6525660108999609049
+    second: Lumberjack_Jackleft_18
+  - first:
+      213: 341184260002155996
+    second: Lumberjack_Jackleft_19
+  - first:
+      213: 1657090573627659385
+    second: Lumberjack_Jackleft_20
+  - first:
+      213: 4574880991961985763
+    second: Lumberjack_Jackleft_21
+  - first:
+      213: 3937580897576118917
+    second: Lumberjack_Jackleft_22
+  - first:
+      213: 4305841413276106918
+    second: Lumberjack_Jackleft_23
+  - first:
+      213: -1295454319219770952
+    second: Lumberjack_Jackleft_24
+  - first:
+      213: 3900385782313875261
+    second: Lumberjack_Jackleft_25
+  - first:
+      213: 6725756242378231363
+    second: Lumberjack_Jackleft_26
+  - first:
+      213: 7584602085401702150
+    second: Lumberjack_Jackleft_27
+  - first:
+      213: -5110410006515846586
+    second: Lumberjack_Jackleft_28
+  - first:
+      213: 5040727258000676454
+    second: Lumberjack_Jackleft_29
+  - first:
+      213: -4216430038098964773
+    second: Lumberjack_Jackleft_30
+  - first:
+      213: 9191478184913657529
+    second: Lumberjack_Jackleft_31
+  - first:
+      213: -2003104860796504563
+    second: Lumberjack_Jackleft_32
+  - first:
+      213: -8792282372944955165
+    second: Lumberjack_Jackleft_33
+  - first:
+      213: 7594422579650968832
+    second: Lumberjack_Jackleft_34
+  - first:
+      213: 3320399062500805952
+    second: Lumberjack_Jackleft_35
+  - first:
+      213: -5483006234114907088
+    second: Lumberjack_Jackleft_36
+  - first:
+      213: 2725313418945348234
+    second: Lumberjack_Jackleft_37
+  - first:
+      213: 5498718028108895703
+    second: Lumberjack_Jackleft_38
+  - first:
+      213: -218380908644685015
+    second: Lumberjack_Jackleft_39
+  - first:
+      213: -3575666478127088759
+    second: Lumberjack_Jackleft_40
+  - first:
+      213: 2536466074005788961
+    second: Lumberjack_Jackleft_41
+  - first:
+      213: 7864405620773396090
+    second: Lumberjack_Jackleft_42
+  - first:
+      213: 2363935862213862347
+    second: Lumberjack_Jackleft_43
+  - first:
+      213: -7925639274602821800
+    second: Lumberjack_Jackleft_44
+  - first:
+      213: -5440036015944663320
+    second: Lumberjack_Jackleft_45
+  - first:
+      213: -6757197655580153419
+    second: Lumberjack_Jackleft_46
+  - first:
+      213: -6534900798037913413
+    second: Lumberjack_Jackleft_47
+  - first:
+      213: -3204973436197523052
+    second: Lumberjack_Jackleft_48
+  - first:
+      213: -5506558008450617662
+    second: Lumberjack_Jackleft_49
+  - first:
+      213: -8016906596247728635
+    second: Lumberjack_Jackleft_50
+  - first:
+      213: 2118940738119725118
+    second: Lumberjack_Jackleft_51
+  - first:
+      213: 3131913247079573850
+    second: Lumberjack_Jackleft_52
+  - first:
+      213: 404513309086070365
+    second: Lumberjack_Jackleft_53
+  - first:
+      213: 779450336943925853
+    second: Lumberjack_Jackleft_54
+  - first:
+      213: -8189105233288970847
+    second: Lumberjack_Jackleft_55
+  - first:
+      213: 8298057239454374501
+    second: Lumberjack_Jackleft_56
+  - first:
+      213: -871733601602065517
+    second: Lumberjack_Jackleft_57
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Lumberjack_Jackleft_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 598
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 027afb813432fe140800000000000000
+      internalID: 4751054902984156960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumberjack_Jackleft_1
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 598
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9719343e52b7c72d0800000000000000
+      internalID: -3279611025975701127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumberjack_Jackleft_2
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 598
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75c98ee954346eda0800000000000000
+      internalID: -5915967094206718889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumberjack_Jackleft_3
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 598
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09a2be7da0b8d61b0800000000000000
+      internalID: -5661716277846398320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumberjack_Jackleft_4
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 598
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d58aa1fd37cdc2ca0800000000000000
+      internalID: -6040210609988261795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumberjack_Jackleft_5
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 598
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b6af97a0946b0e20800000000000000
+      internalID: 3317856122938828464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumberjack_Jackleft_6
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 534
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d63ae82a93374810800000000000000
+      internalID: 1749423717461145303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumberjack_Jackleft_7
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 534
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbda7740ad63db790800000000000000
+      internalID: -7512788293378396739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumberjack_Jackleft_8
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 534
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5bc0e01fb8afd510800000000000000
+      internalID: 1576163933178350426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumberjack_Jackleft_9
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 534
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b4c27ab8155224a0800000000000000
+      internalID: -6619634937585548108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumberjack_Jackleft_10
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 534
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b2a2c94284c48480800000000000000
+      internalID: -8897770899914972488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumberjack_Jackleft_11
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 534
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec546e69c61127b90800000000000000
+      internalID: -7245709692399893042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumberjack_Jackleft_12
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 470
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3224aaa4f5c4ca9c0800000000000000
+      internalID: -3914670003933527517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumberjack_Jackleft_13
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 470
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ecaf54af6e7df950800000000000000
+      internalID: 6484478056447585510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumberjack_Jackleft_14
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 470
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d04f3bba16de02bc0800000000000000
+      internalID: -3809784281007131635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumberjack_Jackleft_15
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 470
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d37260e6667ec2bb0800000000000000
+      internalID: -4959334662523181251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumberjack_Jackleft_16
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 470
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9daffe65914b6920800000000000000
+      internalID: 2984551288131267998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumberjack_Jackleft_17
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 470
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f0fc1e33188f0190800000000000000
+      internalID: -7994021197331500808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumberjack_Jackleft_18
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 406
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dacbd17b4dcf8a50800000000000000
+      internalID: 6525660108999609049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumberjack_Jackleft_19
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 406
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdd026cd6412cb400800000000000000
+      internalID: 341184260002155996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumberjack_Jackleft_20
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 406
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97499b9d81b2ff610800000000000000
+      internalID: 1657090573627659385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumberjack_Jackleft_21
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 406
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e2b49ff50e3d7f30800000000000000
+      internalID: 4574880991961985763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumberjack_Jackleft_22
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 406
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58a6362d6f815a630800000000000000
+      internalID: 3937580897576118917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumberjack_Jackleft_23
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 406
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a00d79b3fb61cb30800000000000000
+      internalID: 4305841413276106918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumberjack_Jackleft_24
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 342
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b9f828092f950ee0800000000000000
+      internalID: -1295454319219770952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumberjack_Jackleft_25
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 342
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d377dc13434f02630800000000000000
+      internalID: 3900385782313875261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumberjack_Jackleft_26
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 342
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34e02d8faafa65d50800000000000000
+      internalID: 6725756242378231363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumberjack_Jackleft_27
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 342
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60f2e07696be14960800000000000000
+      internalID: 7584602085401702150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumberjack_Jackleft_28
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 342
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6427509dc2d2419b0800000000000000
+      internalID: -5110410006515846586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumberjack_Jackleft_29
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 342
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66652c6fbb244f540800000000000000
+      internalID: 5040727258000676454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumberjack_Jackleft_30
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 278
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bde03de483b3c75c0800000000000000
+      internalID: -4216430038098964773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumberjack_Jackleft_31
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 278
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bed78ce5b0be8f70800000000000000
+      internalID: 9191478184913657529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumberjack_Jackleft_32
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 278
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d06bd54fdba8334e0800000000000000
+      internalID: -2003104860796504563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumberjack_Jackleft_33
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 278
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e8ffabe3c98bf580800000000000000
+      internalID: -8792282372944955165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumberjack_Jackleft_34
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 278
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00d3d46691fc46960800000000000000
+      internalID: 7594422579650968832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumberjack_Jackleft_35
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 278
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04d86e8ea5d641e20800000000000000
+      internalID: 3320399062500805952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumberjack_Jackleft_36
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 214
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 034245a51e278e3b0800000000000000
+      internalID: -5483006234114907088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumberjack_Jackleft_37
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 214
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a82c7dd7d1242d520800000000000000
+      internalID: 2725313418945348234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumberjack_Jackleft_38
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 214
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d59771c9ee5f4c40800000000000000
+      internalID: 5498718028108895703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumberjack_Jackleft_39
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 214
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92ba18a78b728fcf0800000000000000
+      internalID: -218380908644685015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumberjack_Jackleft_40
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 142
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98b76f7684ea06ec0800000000000000
+      internalID: -3575666478127088759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumberjack_Jackleft_41
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 145
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 129d1fd9476533320800000000000000
+      internalID: 2536466074005788961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumberjack_Jackleft_42
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 150
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7e98c3ae3bf32d60800000000000000
+      internalID: 7864405620773396090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumberjack_Jackleft_43
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 145
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc3601b54236ec020800000000000000
+      internalID: 2363935862213862347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumberjack_Jackleft_44
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 144
+        width: 37
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8570a635219720290800000000000000
+      internalID: -7925639274602821800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumberjack_Jackleft_45
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 150
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ee7948e01c1184b0800000000000000
+      internalID: -5440036015944663320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumberjack_Jackleft_46
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 86
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b9ea0e888c9932a0800000000000000
+      internalID: -6757197655580153419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumberjack_Jackleft_47
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 80
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb0988af85e5f45a0800000000000000
+      internalID: -6534900798037913413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumberjack_Jackleft_48
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 78
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49132e4f3a5a583d0800000000000000
+      internalID: -3204973436197523052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumberjack_Jackleft_49
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 77
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cee7339aa6c493b0800000000000000
+      internalID: -5506558008450617662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumberjack_Jackleft_50
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 76
+        width: 21
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50e0b251de93eb090800000000000000
+      internalID: -8016906596247728635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumberjack_Jackleft_51
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 86
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e30fabbef5df76d10800000000000000
+      internalID: 2118940738119725118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumberjack_Jackleft_52
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 22
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a59a48f218ac67b20800000000000000
+      internalID: 3131913247079573850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumberjack_Jackleft_53
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 22
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d563efe16be1d9500800000000000000
+      internalID: 404513309086070365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumberjack_Jackleft_54
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 22
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5ae995a3f921da00800000000000000
+      internalID: 779450336943925853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumberjack_Jackleft_55
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 19
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1adb4859d247a5e80800000000000000
+      internalID: -8189105233288970847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumberjack_Jackleft_56
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 15
+        width: 21
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56a5983281f982370800000000000000
+      internalID: 8298057239454374501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lumberjack_Jackleft_57
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 14
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39bacb178eaf6e3f0800000000000000
+      internalID: -871733601602065517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Lumberjack_Jackleft_0: 4751054902984156960
+      Lumberjack_Jackleft_1: -3279611025975701127
+      Lumberjack_Jackleft_10: -8897770899914972488
+      Lumberjack_Jackleft_11: -7245709692399893042
+      Lumberjack_Jackleft_12: -3914670003933527517
+      Lumberjack_Jackleft_13: 6484478056447585510
+      Lumberjack_Jackleft_14: -3809784281007131635
+      Lumberjack_Jackleft_15: -4959334662523181251
+      Lumberjack_Jackleft_16: 2984551288131267998
+      Lumberjack_Jackleft_17: -7994021197331500808
+      Lumberjack_Jackleft_18: 6525660108999609049
+      Lumberjack_Jackleft_19: 341184260002155996
+      Lumberjack_Jackleft_2: -5915967094206718889
+      Lumberjack_Jackleft_20: 1657090573627659385
+      Lumberjack_Jackleft_21: 4574880991961985763
+      Lumberjack_Jackleft_22: 3937580897576118917
+      Lumberjack_Jackleft_23: 4305841413276106918
+      Lumberjack_Jackleft_24: -1295454319219770952
+      Lumberjack_Jackleft_25: 3900385782313875261
+      Lumberjack_Jackleft_26: 6725756242378231363
+      Lumberjack_Jackleft_27: 7584602085401702150
+      Lumberjack_Jackleft_28: -5110410006515846586
+      Lumberjack_Jackleft_29: 5040727258000676454
+      Lumberjack_Jackleft_3: -5661716277846398320
+      Lumberjack_Jackleft_30: -4216430038098964773
+      Lumberjack_Jackleft_31: 9191478184913657529
+      Lumberjack_Jackleft_32: -2003104860796504563
+      Lumberjack_Jackleft_33: -8792282372944955165
+      Lumberjack_Jackleft_34: 7594422579650968832
+      Lumberjack_Jackleft_35: 3320399062500805952
+      Lumberjack_Jackleft_36: -5483006234114907088
+      Lumberjack_Jackleft_37: 2725313418945348234
+      Lumberjack_Jackleft_38: 5498718028108895703
+      Lumberjack_Jackleft_39: -218380908644685015
+      Lumberjack_Jackleft_4: -6040210609988261795
+      Lumberjack_Jackleft_40: -3575666478127088759
+      Lumberjack_Jackleft_41: 2536466074005788961
+      Lumberjack_Jackleft_42: 7864405620773396090
+      Lumberjack_Jackleft_43: 2363935862213862347
+      Lumberjack_Jackleft_44: -7925639274602821800
+      Lumberjack_Jackleft_45: -5440036015944663320
+      Lumberjack_Jackleft_46: -6757197655580153419
+      Lumberjack_Jackleft_47: -6534900798037913413
+      Lumberjack_Jackleft_48: -3204973436197523052
+      Lumberjack_Jackleft_49: -5506558008450617662
+      Lumberjack_Jackleft_5: 3317856122938828464
+      Lumberjack_Jackleft_50: -8016906596247728635
+      Lumberjack_Jackleft_51: 2118940738119725118
+      Lumberjack_Jackleft_52: 3131913247079573850
+      Lumberjack_Jackleft_53: 404513309086070365
+      Lumberjack_Jackleft_54: 779450336943925853
+      Lumberjack_Jackleft_55: -8189105233288970847
+      Lumberjack_Jackleft_56: 8298057239454374501
+      Lumberjack_Jackleft_57: -871733601602065517
+      Lumberjack_Jackleft_6: 1749423717461145303
+      Lumberjack_Jackleft_7: -7512788293378396739
+      Lumberjack_Jackleft_8: 1576163933178350426
+      Lumberjack_Jackleft_9: -6619634937585548108
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
