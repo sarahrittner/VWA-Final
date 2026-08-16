@@ -109,8 +109,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 112.9, y: -49.80001}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 39.45449, y: -41.488697}
+  m_SizeDelta: {x: 53.109, y: 33.3774}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8541927875378227011
 CanvasRenderer:
@@ -206,7 +206,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 148.44067, w: 16.91809}
+  m_margin: {x: 0, y: 0, z: 0.68039703, w: 1.2728806}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -277,7 +277,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -5709444697936806870, guid: c5f233c7830f8e94d9d15769068ccff6, type: 3}
+  m_Sprite: {fileID: -245604767892403296, guid: ef4851782e3ddd64e82ab58a48585c26, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -298,8 +298,8 @@ GameObject:
   - component: {fileID: 7192824132305365299}
   - component: {fileID: 5691182766677532178}
   - component: {fileID: 4961148323635106052}
-  - component: {fileID: 7134815251186038231}
   - component: {fileID: 4296982867067039939}
+  - component: {fileID: 7658646149803508757}
   m_Layer: 5
   m_Name: apfel panel
   m_TagString: Untagged
@@ -351,7 +351,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 0
+  m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -367,22 +367,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &7134815251186038231
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8379632838558054989}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3650a797e72344a4f986622fbe3a0ea2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Shop
-  itemsForSale: []
-  priceText: {fileID: 3296976920760743368}
-  itemImage: {fileID: 4544159698198409130}
-  shopManager: {fileID: 0}
 --- !u!114 &4296982867067039939
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -427,7 +411,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 7134815251186038231}
+      - m_Target: {fileID: 7658646149803508757}
         m_TargetAssemblyTypeName: Shop, Assembly-CSharp
         m_MethodName: BuyOnButtonClicked
         m_Mode: 1
@@ -439,3 +423,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &7658646149803508757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8379632838558054989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b40210fee1812da40b01ab1744051c84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Shop
+  itemsForSale: []
+  priceText: {fileID: 3296976920760743368}
+  itemImage: {fileID: 4544159698198409130}
+  itemSO: {fileID: 11400000, guid: 34a100b4c54091340a6ebc1fc891489c, type: 2}
+  shopManager: {fileID: 0}
+  shopinfo: {fileID: 0}
+  price: 01000000

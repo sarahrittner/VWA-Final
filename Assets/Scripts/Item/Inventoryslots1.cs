@@ -5,7 +5,6 @@ using System.Collections.Generic;
 using System;
 using UnityEngine.EventSystems;
 using System.Collections;
-using UnityEngine.InputSystem.Interactions;
 
 
 public class Inventoryslots : MonoBehaviour, IPointerClickHandler
@@ -16,13 +15,14 @@ public class Inventoryslots : MonoBehaviour, IPointerClickHandler
     public TMP_Text quantityText; // Reference to the TextMeshProUGUI component for displaying the quantity
     private InventoryManager inventoryManager; // Reference to the InventoryManager script
     private SHopManager shopManager; // Reference to the ShopManager script
-    private PlayerController playerController; // Reference to the PlayerController script
 
-
+    private Shop shop; // Reference to the Shop script
+    public CanvasGroup canvasGroup;
 
     private void Start()
     {
         inventoryManager = GetComponentInParent<InventoryManager>();
+        shop = GetComponentInParent<Shop>();
         UpdateUI();
 
     }
@@ -69,30 +69,23 @@ public class Inventoryslots : MonoBehaviour, IPointerClickHandler
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        if (quantity >= 0)
+        if (quantity > 0)
         {
             Debug.Log($"Clicked on {item.itemName} with quantity {quantity}");
             // Implement your logic for using or equipping the item here
             if (eventData.button == PointerEventData.InputButton.Left)
             {
                 
-                if (shopManager != null)
+                if (canvasGroup.alpha == 1)
                 {    // If the shop is open, handle the left-click logic for selling the item
                     Debug.Log($"Left-clicked on {item.itemName} in the inventory.");
-                    shopManager.Sellitem(GetComponent<Shop>()); // Call the Sellitem method in the ShopManager script
+                    shopManager.Sellitem(shop); // Call the Sellitem method in the ShopManager script
                     quantity--; // Decrease the quantity of the item in the inventory
                     UpdateUI(); // Update the UI to reflect the changes
-                
                 }
-
-
-                   
-
-            }
-        
-        
-    
-    
+                else 
+                    inventoryManager.UseItem(this);   
+            }    
         }
     }
 }

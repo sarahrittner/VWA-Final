@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1516496940273321187}
   - component: {fileID: 3368066425791735105}
   - component: {fileID: 76778165092703176}
-  - component: {fileID: 6382320905563864882}
+  - component: {fileID: 6815814330079077026}
   m_Layer: 0
   m_Name: Apple
   m_TagString: Untagged
@@ -93,7 +93,7 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0.057312906, y: 0.04766567}
   m_Radius: 0.08365029
---- !u!114 &6382320905563864882
+--- !u!114 &6815814330079077026
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -102,7 +102,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7250559339547654343}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: da3b2baef65633141888c8b225252bb5, type: 3}
+  m_Script: {fileID: 11500000, guid: 67f4c7719adb82f4481ad8f94da333fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Loot
   item: {fileID: 11400000, guid: 34a100b4c54091340a6ebc1fc891489c, type: 2}

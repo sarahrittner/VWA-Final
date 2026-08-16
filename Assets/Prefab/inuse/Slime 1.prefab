@@ -202,7 +202,9 @@ MonoBehaviour:
   afterknockbackslime: 0.3
   maxHealth: 3
   currentHealth: 0
-  CollectibleHealth: {fileID: 0}
+  item: {fileID: 1179776047328337948, guid: 37081f85229985c429950d8576105982, type: 3}
+  pos: {x: 0, y: 0}
+  rot: {x: 0, y: 0, z: 0, w: 0}
   cc: {fileID: 3711358471980971548}
 --- !u!58 &2405364431003747327
 CircleCollider2D:
@@ -254,8 +256,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Wandering1
   wanderwidth: 3
   wanderhight: 3
-  startpos: {x: -5, y: 3}
-  rb: {fileID: 0}
+  startpos: {x: -6, y: 12}
+  rb: {fileID: 1519671285715634885}
   speed: 1
   target: {x: 0, y: 0}
   pausedur: 1

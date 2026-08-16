@@ -14,18 +14,16 @@ public class SHopManager : MonoBehaviour
 
     [SerializeField] private Shop[] shopSlots; // Array of Shopslot components representing the UI slots in the shop
     [SerializeField] private InventoryManager inventoryManager; // Reference to the InventoryManager script
-    public Shop shop;
+    public Shop[] shop;
     private itamSO item; // Reference to the item scriptable object
 
     public static event Action<SHopManager, bool> OnShopStateChanged; // Event to notify when the shop state changes
-    public CanvasGroup canvasGroupmusic;
+    public CanvasGroup canvasGroup;
 
     public void Start()
     {
         PopulateShopItems();
         OnShopStateChanged?.Invoke(this, true); // Notify listeners that the shop is open
-
-
     }
 
     public void PopulateShopItems()
@@ -65,15 +63,6 @@ public class SHopManager : MonoBehaviour
             inventoryManager.tMP_Text.text = inventoryManager.gold.ToString(); // Update the gold display
             inventoryManager.AddItemToInventory(item, 1); // Add the item to the player's inventory
             Debug.Log($"Bought {item.itemName} for {price} gold.");
-            if (item.isMusicSheet == true)
-            {
-                canvasGroupmusic.alpha = 1;
-                    
-                    if (Input.GetKeyDown(KeyCode.E))
-                    {
-                    canvasGroupmusic.alpha = 0;
-                    }
-            }
         }
         else
         {
@@ -83,14 +72,12 @@ public class SHopManager : MonoBehaviour
 
     public void Sellitem(Shop itemForSale)
     {
-
+        if (canvasGroup.alpha == 1)
+        {
         inventoryManager.gold ++; // Add the price to the player's gold
         inventoryManager.tMP_Text.text = inventoryManager.gold.ToString(); // Update the gold display
         Debug.Log("Sold {itemForSale.itemsForSale[0].itemName} for {itemForSale.price[price]} gold.");
         return; // Exit the method after selling the item
-            
-        
+        }            
     }
-
-
 }
