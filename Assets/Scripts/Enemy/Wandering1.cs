@@ -98,9 +98,9 @@ public class Wandering1 : MonoBehaviour
         
     }
 
-    public void OnTriggerEnter2D(CircleCollider2D circleCollider2D)
+    public void OnTriggerEnter2D(Collider2D collision)
     {
-        if (circleCollider2D.CompareTag("Player"))
+        if (collision.CompareTag("Player"))
         {
             if (target == null)
             {
