@@ -4,7 +4,7 @@ using UnityEngine;
 public class Shopkeeper : MonoBehaviour
 {
     public CanvasGroup canvasGroup;
-    private bool isShopOpen;
+    public bool isShopOpen;
 
 
 

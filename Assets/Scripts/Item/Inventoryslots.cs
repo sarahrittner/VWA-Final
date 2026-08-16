@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System;
 using UnityEngine.EventSystems;
 using System.Collections;
+using UnityEngine.InputSystem.Interactions;
 
 
 public class Inventoryslots : MonoBehaviour, IPointerClickHandler
@@ -17,7 +18,7 @@ public class Inventoryslots : MonoBehaviour, IPointerClickHandler
     private SHopManager shopManager; // Reference to the ShopManager script
     private PlayerController playerController; // Reference to the PlayerController script
 
-    private Shop shop; // Reference to the Shop script
+
 
     private void Start()
     {
@@ -68,24 +69,31 @@ public class Inventoryslots : MonoBehaviour, IPointerClickHandler
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        if (quantity > 0)
+        if (quantity >= 0)
         {
             Debug.Log($"Clicked on {item.itemName} with quantity {quantity}");
             // Implement your logic for using or equipping the item here
             if (eventData.button == PointerEventData.InputButton.Left)
             {
                 
-                if (shopManager == null)
-                    // If the shop is open, handle the left-click logic for selling the item
+                if (shopManager != null)
+                {    // If the shop is open, handle the left-click logic for selling the item
                     Debug.Log($"Left-clicked on {item.itemName} in the inventory.");
                     shopManager.Sellitem(GetComponent<Shop>()); // Call the Sellitem method in the ShopManager script
                     quantity--; // Decrease the quantity of the item in the inventory
                     UpdateUI(); // Update the UI to reflect the changes
-                }   
+                
+                }
 
+
+                   
+
+            }
+        
+        
+    
+    
         }
-    
-    
     }
 }
     

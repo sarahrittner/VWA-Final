@@ -9,6 +9,7 @@ public class itamSO : ScriptableObject
     public string itemDescription;
 
     public bool isGold;
+    public bool isMusicSheet;
 
     [Header("Item Stats")]
     public int itemHealth;
