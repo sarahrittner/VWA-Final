@@ -6,14 +6,12 @@ using UnityEngine.SceneManagement;
 
 public class ClickSpielBeenden : MonoBehaviour, IPointerClickHandler
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
+    public AudioSource audioSource;
+    public AudioClip click;
 
     public void OnPointerClick(PointerEventData eventData)
     {
+        audioSource.PlayOneShot(click);
         Debug.Log("Spiel beendet");
         Application.Quit();
     }

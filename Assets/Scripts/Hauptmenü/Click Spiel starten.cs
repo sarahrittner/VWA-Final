@@ -6,14 +6,12 @@ using UnityEngine.SceneManagement;
 
 public class MouseclickHauptmenü : MonoBehaviour, IPointerClickHandler
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
+    public AudioSource audioSource;
+    public AudioClip click;
 
     public void OnPointerClick(PointerEventData eventData)
     {
+        audioSource.PlayOneShot(click);
         Debug.Log("Spiel gestartet");
         SceneManager.LoadScene("MainScene");
     }
