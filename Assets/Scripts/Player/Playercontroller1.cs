@@ -48,7 +48,23 @@ public class PlayerController : MonoBehaviour
   bool isInvincible;
   float damageCooldown;
 
-  
+  // Schritte
+   public Tilemap groundTilemap;
+
+   public TileBase[] erdeTiles;
+   public TileBase[] steinTiles;
+   public TileBase[] grasTiles;
+
+   public AudioSource audioSource;
+
+   public AudioClip erdeSound;
+   public AudioClip steinSound;
+   public AudioClip grasSound;
+   public AudioClip attacksucess;
+   public AudioClip attackfail;
+
+   public float stepInterval = 0.4f;
+   private float stepTimer;
 
 
 
@@ -69,10 +85,6 @@ public class PlayerController : MonoBehaviour
   // Update is called once per frame
   void Update()
   {
-
-
-
-
      if (isInvincible)
        {
            damageCooldown -= Time.deltaTime;
@@ -103,7 +115,6 @@ public class PlayerController : MonoBehaviour
 // FixedUpdate has the same call rate as the physics system
   void FixedUpdate()
   {
-
       if (isKnockedback == false)
       {
          move = MoveActionwasd.ReadValue<Vector2>();
@@ -113,7 +124,7 @@ public class PlayerController : MonoBehaviour
          move += MoveAction.ReadValue<Vector2>();
          }
    
-         Vector2 position = (Vector2)rigidbody2d.position + move * speed * Time.deltaTime;
+         Vector2 position = (Vector2)rigidbody2d.position + move * speed * Time.fixedDeltaTime;
          rigidbody2d.MovePosition(position);
 
          if (move != Vector2.zero)
@@ -122,16 +133,41 @@ public class PlayerController : MonoBehaviour
             animator.SetFloat("movey", move.y);
             animator.SetBool("isMoving", true);
 
+            // Schritt-Sound
+            PlayFootstep();
          }
          else
          {
             animator.SetBool("isMoving", false);
          }
-
-      }
-       
+      } 
   }
+   void PlayFootstep()
+   {
+    stepTimer -= Time.deltaTime;
 
+    if (stepTimer > 0f)
+        return;
+
+    stepTimer = stepInterval;
+
+    // Position des Spielers in Tilemap-Zelle umwandeln
+    Vector3Int cellPosition = groundTilemap.WorldToCell(transform.position);
+
+    // Tile unter dem Spieler holen
+    TileBase currentTile = groundTilemap.GetTile(cellPosition);
+
+    if (System.Array.Exists(erdeTiles, tile => tile == currentTile))
+    {
+        audioSource.PlayOneShot(erdeSound);
+    }
+    else if (System.Array.Exists(steinTiles, tile => tile == currentTile))
+    {
+        audioSource.PlayOneShot(steinSound);
+    }
+    else if (System.Array.Exists(grasTiles, tile => tile == currentTile))
+      audioSource.PlayOneShot(grasSound);
+   }
 
    public void ChangeHealth(int amount)
    {
@@ -141,14 +177,10 @@ public class PlayerController : MonoBehaviour
          {
           return;
          }
-
-         
+   
          isInvincible = true;
          damageCooldown = TimeInvincible;         
-         
-
       }
-
 
       currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
       Debug.Log("Player health changed. Current health: " + currentHealth);
@@ -157,7 +189,6 @@ public class PlayerController : MonoBehaviour
       {
          Die();
       }
-
    }
 
    public void Die()
@@ -165,7 +196,6 @@ public class PlayerController : MonoBehaviour
          Debug.Log("Player has died.");
          SceneManager.LoadScene("dead");
    }
-
 
    void Attack()
    {
@@ -177,12 +207,14 @@ public class PlayerController : MonoBehaviour
 
     if (System.Array.Exists(colliders, collider => collider == cc))
     {
+        audioSource.PlayOneShot(attacksucess);
         Debug.Log("Der Collider ist innerhalb des Kreises!");
         slimecontroller slime = cc.GetComponent<slimecontroller>();
         slime.TakeDamage(AttackDamage);
         slime.Knockback(transform, knockbackForceplayer, slime.afterknockbackslime, knockbackDurationslime);
     }
-  
+    else
+      audioSource.PlayOneShot(attackfail);
    }
 
    public void Attackend()

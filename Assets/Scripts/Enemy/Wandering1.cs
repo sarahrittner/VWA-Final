@@ -32,6 +32,7 @@ public class Wandering1 : MonoBehaviour
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        slimecontroller = GetComponent<slimecontroller>();
     }
 
     private void OnEnable()
