@@ -1,4 +1,5 @@
 using System.Collections;
+using UnityEditor;
 using UnityEngine;
 
 public class slimecontroller : MonoBehaviour
@@ -22,8 +23,10 @@ public class slimecontroller : MonoBehaviour
     public int maxHealth; // Maximum health of the slime
     public int currentHealth; // Current health of the slime
 
-    public GameObject CollectibleHealth; // Reference to the collectible health prefab
 
+    public GameObject item;
+    public Vector2 pos;
+    public Quaternion rot;
 
 
 
@@ -70,12 +73,15 @@ public class slimecontroller : MonoBehaviour
 
         }
 
+        pos = transform.position;
+        rot = transform.rotation; 
+
 
 
         
     }
 
-        private void OnCollisionEnter2D(Collision2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
 
         if (collision.gameObject.CompareTag("Player"))
@@ -165,7 +171,7 @@ public class slimecontroller : MonoBehaviour
         
     }
 
-    void ChangeState(EnemyState newState)
+    public void ChangeState(EnemyState newState)
     {
         enemystate = newState;
 
@@ -215,6 +221,7 @@ public class slimecontroller : MonoBehaviour
         if (currentHealth <= 0)
         {
             // Implement logic for when the slime's health reaches zero
+            Instantiate(item, pos, rot);
 
             Destroy(gameObject);            
         }

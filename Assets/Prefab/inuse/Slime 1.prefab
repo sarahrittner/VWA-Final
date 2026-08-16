@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 1519671285715634885}
   - component: {fileID: 2372889690734989197}
   - component: {fileID: 2405364431003747327}
+  - component: {fileID: 5665394564034643641}
   m_Layer: 0
   m_Name: Slime 1
   m_TagString: enemy
@@ -84,7 +85,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 5974850342220603758, guid: cfcf183f04dc29541950867eb1f3b5dc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -238,4 +239,27 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 2.4285898
+  m_Radius: 2.0199924
+--- !u!114 &5665394564034643641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3555252130237784387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8b62b687192ba7499909ce4b1fb8c44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wandering1
+  wanderwidth: 3
+  wanderhight: 3
+  startpos: {x: -5, y: 3}
+  rb: {fileID: 0}
+  speed: 1
+  target: {x: 0, y: 0}
+  pausedur: 1
+  animator: {fileID: 349505332384253578}
+  circleCollider2D: {fileID: 2405364431003747327}
+  pc: {fileID: 0}
+  bc: {fileID: 0}

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2446801573194286122}
   - component: {fileID: 7888476034944487847}
   m_Layer: 0
-  m_Name: Gold
+  m_Name: Slime
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -105,7 +105,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da3b2baef65633141888c8b225252bb5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Loot
-  item: {fileID: 11400000, guid: b6a4533ea9228454899a212eb6f59d2d, type: 2}
+  item: {fileID: 11400000, guid: 526fef62b3193a74c82eab7d36892068, type: 2}
   spriteRenderer: {fileID: 2001766995172638154}
   animator: {fileID: 7035836862107163057}
   quantity: 1
@@ -190,7 +190,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 50
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -8958593014244047496, guid: ef4851782e3ddd64e82ab58a48585c26, type: 3}
+  m_Sprite: {fileID: -245604767892403296, guid: ef4851782e3ddd64e82ab58a48585c26, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

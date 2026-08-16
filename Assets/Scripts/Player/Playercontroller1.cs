@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-
+using UnityEngine.Tilemaps;
 
 
 
@@ -20,7 +20,6 @@ public class PlayerController : MonoBehaviour
 
    public Transform AttackPoint;
    public float AttackRange;
-   public LayerMask EnemyLayers;
    public int AttackDamage;
 
    private bool isKnockedback;
@@ -28,13 +27,13 @@ public class PlayerController : MonoBehaviour
    public float knockbackForceplayer; // Adjust this value to control the knockback strength
    public float knockbackDurationslime; // Duration of the knockback effect
 
-    public CapsuleCollider2D cc;
+   public CapsuleCollider2D cc;
 
 
-    public slimecontroller slime;
+   public PolygonCollider2D skCollider2D;
+   public BoxCollider2D bxCollider2D;
 
-    public PolygonCollider2D skCollider2D;
-    public BoxCollider2D bxCollider2D;
+   public bool hatSchwert;
 
   
 
@@ -48,6 +47,8 @@ public class PlayerController : MonoBehaviour
   public float TimeInvincible;
   bool isInvincible;
   float damageCooldown;
+
+  
 
 
 
@@ -85,6 +86,7 @@ public class PlayerController : MonoBehaviour
 
       if (Input.GetKeyDown(KeyCode.Space))
       {
+         if (hatSchwert == true)
          Attack();
       }
 
@@ -241,5 +243,7 @@ public class PlayerController : MonoBehaviour
          chest.Interactc();
     }
    
-   }
+   } 
+
 }
+
