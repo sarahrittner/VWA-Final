@@ -261,12 +261,63 @@ public class PlayerController : MonoBehaviour
 
     foreach (Collider2D collider2D in colliders)
     {
-        Glocke glocke = collider2D.GetComponent<Glocke>();
-        if (glocke != null)
+        Glockec glockec = collider2D.GetComponent<Glockec>();
+        if (glockec != null)
         {
-            glocke.Interactg();
+            glockec.Interactg();
             return; // Exit after interacting with the first Glocke found
         }
+
+        Glocked glocked = collider2D.GetComponent<Glocked>();
+        if (glocked != null)
+        {
+            glocked.Interactg();
+            return; // Exit after interacting with the first Glocke found
+        }
+
+        Glockee glockee = collider2D.GetComponent<Glockee>();
+        if (glockee != null)
+        {
+            glockee.Interactg();
+            return; // Exit after interacting with the first Glocke found
+        }
+
+         Glockef glockef = collider2D.GetComponent<Glockef>();
+        if (glockef != null)
+        {
+            glockef.Interactg();
+            return; // Exit after interacting with the first Glocke found
+        }
+
+         Glockeg glockeg = collider2D.GetComponent<Glockeg>();
+        if (glockeg != null)
+        {
+            glockeg.Interactg();
+            return; // Exit after interacting with the first Glocke found
+        }
+
+         Glockea glockea = collider2D.GetComponent<Glockea>();
+        if (glockea != null)
+        {
+            glockea.Interactg();
+            return; // Exit after interacting with the first Glocke found
+        }
+
+         Glockeh glockeh = collider2D.GetComponent<Glockeh>();
+        if (glockeh != null)
+        {
+            glockeh.Interactg();
+            return; // Exit after interacting with the first Glocke found
+        }
+
+        Glocker glocker = collider2D.GetComponent<Glocker>();
+        if (glocker != null)
+        {
+            glocker.Interactg();
+            return; // Exit after interacting with the first Glocke found
+        }
+
+
 
         Shopkeeper shopkeeper = collider2D.GetComponent<Shopkeeper>();
         if (collider2D == skCollider2D)

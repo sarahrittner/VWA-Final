@@ -131,10 +131,10 @@ public class slimecontroller : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            if (target == null)
-            {
-                target = collision.transform;
-            }
+  
+            
+            target = collision.transform;
+            
             
             
             rb.linearVelocity = Vector2.zero;

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Glocke : MonoBehaviour
+public class Glockea : MonoBehaviour
 {
 
     public Sequence sequence; // Reference to the Sequence script
@@ -26,7 +26,8 @@ public class Glocke : MonoBehaviour
             Debug.LogError("SEQUENCE IST NULL!");
             return;
         }
-        sequence.PressButton("Left");
+        sequence.PressButton("a");
+        Debug.Log("Pressed button a");
         
     
     }

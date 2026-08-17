@@ -165,7 +165,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e52fc2027e1f074b899f150e0dd68af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Sequence
+  tree: {fileID: 0}
   correctSequence:
-  - Left
-  - Right
-  - Middle
+  - c
+  - g
+  - e
+  - d
+  - g
+  - e
+  - f
+  - a
+  - a
+  - c#
+  - f
+  - a

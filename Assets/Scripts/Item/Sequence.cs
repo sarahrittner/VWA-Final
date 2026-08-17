@@ -5,6 +5,7 @@ public class Sequence : MonoBehaviour
 {
 
     private int currentStep;    
+    public GameObject tree;
 
     void Start()
     {
@@ -15,9 +16,18 @@ public class Sequence : MonoBehaviour
     // Die richtige Reihenfolge
     public List<string> correctSequence = new List<string>
     {
-        "Left",
-        "Right",
-        "Middle"
+        "c",
+        "g",
+        "e",
+        "d",
+        "g",
+        "e",
+        "f",
+        "a",
+        "a",
+        "c#",
+        "f",
+        "a"
     };
 
 
@@ -48,8 +58,8 @@ public class Sequence : MonoBehaviour
     private void OpenDoor()
     {
         Debug.Log("Tür öffnet sich!");
-
-        // Hier später Türanimation etc.
+        Destroy(tree);
+        currentStep = 0;
     }
 
 }
