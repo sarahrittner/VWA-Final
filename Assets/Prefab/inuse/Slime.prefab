@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4018664480141522667}
   - component: {fileID: 7035836862107163057}
   - component: {fileID: 2446801573194286122}
-  - component: {fileID: 7888476034944487847}
+  - component: {fileID: 7923593886163824462}
   m_Layer: 0
   m_Name: Slime
   m_TagString: Untagged
@@ -93,7 +93,7 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0.053994507, y: 0.04766567}
   m_Radius: 0.0849081
---- !u!114 &7888476034944487847
+--- !u!114 &7923593886163824462
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -102,7 +102,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1179776047328337948}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: da3b2baef65633141888c8b225252bb5, type: 3}
+  m_Script: {fileID: 11500000, guid: 67f4c7719adb82f4481ad8f94da333fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Loot
   item: {fileID: 11400000, guid: 526fef62b3193a74c82eab7d36892068, type: 2}
@@ -188,7 +188,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 50
+  m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: -245604767892403296, guid: ef4851782e3ddd64e82ab58a48585c26, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

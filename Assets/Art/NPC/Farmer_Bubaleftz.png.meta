@@ -1,0 +1,2093 @@
+fileFormatVersion: 2
+guid: 489fce78573d5234f8d6cb342fabdc67
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1213951636909627421
+    second: Farmer_Bubaleftz_0
+  - first:
+      213: -7844182557515815905
+    second: Farmer_Bubaleftz_1
+  - first:
+      213: 5764044404229093787
+    second: Farmer_Bubaleftz_2
+  - first:
+      213: 5292602445474771250
+    second: Farmer_Bubaleftz_3
+  - first:
+      213: 3720511542332492980
+    second: Farmer_Bubaleftz_4
+  - first:
+      213: 8335161939511588845
+    second: Farmer_Bubaleftz_5
+  - first:
+      213: 3532162715940908282
+    second: Farmer_Bubaleftz_6
+  - first:
+      213: -6970520053361324644
+    second: Farmer_Bubaleftz_7
+  - first:
+      213: -6531788836239516720
+    second: Farmer_Bubaleftz_8
+  - first:
+      213: 7364860285436606572
+    second: Farmer_Bubaleftz_9
+  - first:
+      213: 4000462804022106207
+    second: Farmer_Bubaleftz_10
+  - first:
+      213: -1446903656787071249
+    second: Farmer_Bubaleftz_11
+  - first:
+      213: -8000555191527790148
+    second: Farmer_Bubaleftz_12
+  - first:
+      213: -7134502411899257793
+    second: Farmer_Bubaleftz_13
+  - first:
+      213: -1871029337093707135
+    second: Farmer_Bubaleftz_14
+  - first:
+      213: 1847179830950779528
+    second: Farmer_Bubaleftz_15
+  - first:
+      213: -749208617865671633
+    second: Farmer_Bubaleftz_16
+  - first:
+      213: -5126021192577150405
+    second: Farmer_Bubaleftz_17
+  - first:
+      213: -950768312074208237
+    second: Farmer_Bubaleftz_18
+  - first:
+      213: -2485263464672297158
+    second: Farmer_Bubaleftz_19
+  - first:
+      213: -7969737183147952970
+    second: Farmer_Bubaleftz_20
+  - first:
+      213: -6201834646706078949
+    second: Farmer_Bubaleftz_21
+  - first:
+      213: 1716131314338222812
+    second: Farmer_Bubaleftz_22
+  - first:
+      213: -6317696610993925846
+    second: Farmer_Bubaleftz_23
+  - first:
+      213: 8098904391930626809
+    second: Farmer_Bubaleftz_24
+  - first:
+      213: -1881201858877505466
+    second: Farmer_Bubaleftz_25
+  - first:
+      213: -1407527792030220156
+    second: Farmer_Bubaleftz_26
+  - first:
+      213: -3323098168348189739
+    second: Farmer_Bubaleftz_27
+  - first:
+      213: -2990870628976400554
+    second: Farmer_Bubaleftz_28
+  - first:
+      213: -1214013901171036656
+    second: Farmer_Bubaleftz_29
+  - first:
+      213: 8371870811426689562
+    second: Farmer_Bubaleftz_30
+  - first:
+      213: 5675357416066143876
+    second: Farmer_Bubaleftz_31
+  - first:
+      213: 1093264593186640114
+    second: Farmer_Bubaleftz_32
+  - first:
+      213: -6780382370997905428
+    second: Farmer_Bubaleftz_33
+  - first:
+      213: 9090037662551862307
+    second: Farmer_Bubaleftz_34
+  - first:
+      213: 7397020217107564432
+    second: Farmer_Bubaleftz_35
+  - first:
+      213: -839084372254096771
+    second: Farmer_Bubaleftz_36
+  - first:
+      213: -834354206032538658
+    second: Farmer_Bubaleftz_37
+  - first:
+      213: -2276592042988480138
+    second: Farmer_Bubaleftz_38
+  - first:
+      213: 417236606527410920
+    second: Farmer_Bubaleftz_39
+  - first:
+      213: -1452555162001891657
+    second: Farmer_Bubaleftz_40
+  - first:
+      213: -111649853114587352
+    second: Farmer_Bubaleftz_41
+  - first:
+      213: 4917565176685130706
+    second: Farmer_Bubaleftz_42
+  - first:
+      213: 8741390765362104825
+    second: Farmer_Bubaleftz_43
+  - first:
+      213: 6637688967270740652
+    second: Farmer_Bubaleftz_44
+  - first:
+      213: -467243247140667348
+    second: Farmer_Bubaleftz_45
+  - first:
+      213: 1926881224965851908
+    second: Farmer_Bubaleftz_46
+  - first:
+      213: 5711199486550039611
+    second: Farmer_Bubaleftz_47
+  - first:
+      213: 4075306610023134054
+    second: Farmer_Bubaleftz_48
+  - first:
+      213: -1542576188619484114
+    second: Farmer_Bubaleftz_49
+  - first:
+      213: 2501659587102969255
+    second: Farmer_Bubaleftz_50
+  - first:
+      213: 7596816127672439770
+    second: Farmer_Bubaleftz_51
+  - first:
+      213: -8779504856361061110
+    second: Farmer_Bubaleftz_52
+  - first:
+      213: 8717534295127878850
+    second: Farmer_Bubaleftz_53
+  - first:
+      213: -2476174318349838466
+    second: Farmer_Bubaleftz_54
+  - first:
+      213: 4083013739211080151
+    second: Farmer_Bubaleftz_55
+  - first:
+      213: 6831477869237075439
+    second: Farmer_Bubaleftz_56
+  - first:
+      213: 666148825832653065
+    second: Farmer_Bubaleftz_57
+  - first:
+      213: -3661173601876609571
+    second: Farmer_Bubaleftz_58
+  - first:
+      213: -8209184423062099627
+    second: Farmer_Bubaleftz_59
+  - first:
+      213: -3642293531335468158
+    second: Farmer_Bubaleftz_60
+  - first:
+      213: -3211849731569400747
+    second: Farmer_Bubaleftz_61
+  - first:
+      213: 6342873725369229384
+    second: Farmer_Bubaleftz_62
+  - first:
+      213: -5200009559693022789
+    second: Farmer_Bubaleftz_63
+  - first:
+      213: 1734181063528043006
+    second: Farmer_Bubaleftz_64
+  - first:
+      213: 389879054617053317
+    second: Farmer_Bubaleftz_65
+  - first:
+      213: 5695940918044979091
+    second: Farmer_Bubaleftz_66
+  - first:
+      213: 3193100603945622072
+    second: Farmer_Bubaleftz_67
+  - first:
+      213: 7750655908442170836
+    second: Farmer_Bubaleftz_68
+  - first:
+      213: 7289401372744306069
+    second: Farmer_Bubaleftz_69
+  - first:
+      213: -6227168613268103562
+    second: Farmer_Bubaleftz_70
+  - first:
+      213: 6110814262268880190
+    second: Farmer_Bubaleftz_71
+  - first:
+      213: -4140456823301756071
+    second: Farmer_Bubaleftz_72
+  - first:
+      213: 4194411351465732440
+    second: Farmer_Bubaleftz_73
+  - first:
+      213: 1610945847080376604
+    second: Farmer_Bubaleftz_74
+  - first:
+      213: -95272144672686362
+    second: Farmer_Bubaleftz_75
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 790
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d18908cf492d8d010800000000000000
+      internalID: 1213951636909627421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_1
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 790
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1464f1368dd32390800000000000000
+      internalID: -7844182557515815905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_2
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 790
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9937afa8dffdff40800000000000000
+      internalID: 5764044404229093787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_3
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 790
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23133ebf1e9137940800000000000000
+      internalID: 5292602445474771250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_4
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 790
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bc087f1989e1a330800000000000000
+      internalID: 3720511542332492980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_5
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 790
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de7b1f55f917ca370800000000000000
+      internalID: 8335161939511588845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_6
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 726
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afc6984a643c40130800000000000000
+      internalID: 3532162715940908282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_7
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 726
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9d49af51fcb34f90800000000000000
+      internalID: -6970520053361324644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_8
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 726
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dbd41c09ac6a55a0800000000000000
+      internalID: -6531788836239516720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_9
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 726
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c68b4dda86d353660800000000000000
+      internalID: 7364860285436606572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_10
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 726
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5896e299bf748730800000000000000
+      internalID: 4000462804022106207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_11
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 726
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fee2ef84ac09bebe0800000000000000
+      internalID: -1446903656787071249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_12
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 662
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb9241b217158f090800000000000000
+      internalID: -8000555191527790148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_13
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 662
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3cb3994bd72dfc90800000000000000
+      internalID: -7134502411899257793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_14
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 662
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18ae1362bb4c806e0800000000000000
+      internalID: -1871029337093707135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_15
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 662
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88a561cf44082a910800000000000000
+      internalID: 1847179830950779528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_16
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 662
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2c84754bb64a95f0800000000000000
+      internalID: -749208617865671633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_17
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 662
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b32905952e6bcd8b0800000000000000
+      internalID: -5126021192577150405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_18
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 598
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31c7e1fe1413ec2f0800000000000000
+      internalID: -950768312074208237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_19
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 598
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3f73fedb02928dd0800000000000000
+      internalID: -2485263464672297158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_20
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 598
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b47e35e14ec56190800000000000000
+      internalID: -7969737183147952970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_21
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 598
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1bbf5f5f38aee9a0800000000000000
+      internalID: -6201834646706078949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_22
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 598
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd2dd03865ce0d710800000000000000
+      internalID: 1716131314338222812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_23
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 598
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a219407a7680358a0800000000000000
+      internalID: -6317696610993925846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_24
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 534
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f240e672a6156070800000000000000
+      internalID: 8098904391930626809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_25
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 534
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6404dca50e0a4e5e0800000000000000
+      internalID: -1881201858877505466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_26
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 534
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4808c883ee4777ce0800000000000000
+      internalID: -1407527792030220156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_27
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 534
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dbdad982dbf1e1d0800000000000000
+      internalID: -3323098168348189739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_28
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 534
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65766be520b4e76d0800000000000000
+      internalID: -2990870628976400554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_29
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 534
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01e605cf9c4f62fe0800000000000000
+      internalID: -1214013901171036656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_30
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 470
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a129c8c952cde2470800000000000000
+      internalID: 8371870811426689562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_31
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 470
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4865006208be2ce40800000000000000
+      internalID: 5675357416066143876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_32
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 470
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f0d66aea5e0c2f00800000000000000
+      internalID: 1093264593186640114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_33
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 470
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce75957582e37e1a0800000000000000
+      internalID: -6780382370997905428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_34
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 470
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32c635fc71d462e70800000000000000
+      internalID: 9090037662551862307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_35
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 470
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 097441542be77a660800000000000000
+      internalID: 7397020217107564432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_36
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 406
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7286378539fa54f0800000000000000
+      internalID: -839084372254096771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_37
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 406
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed3d39c2547cb64f0800000000000000
+      internalID: -834354206032538658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_38
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 406
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 679d03b499be760e0800000000000000
+      internalID: -2276592042988480138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_39
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 406
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e21b57ab725ac500800000000000000
+      internalID: 417236606527410920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_40
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 342
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7be9730b6cc77dbe0800000000000000
+      internalID: -1452555162001891657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_41
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 342
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82761e5dc07537ef0800000000000000
+      internalID: -111649853114587352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_42
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 342
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d3f52c4973be3440800000000000000
+      internalID: 4917565176685130706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_43
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 342
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f9c9445698af4970800000000000000
+      internalID: 8741390765362104825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_44
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 341
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca2b3bf92fecd1c50800000000000000
+      internalID: 6637688967270740652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_45
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 342
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c200b760eb40489f0800000000000000
+      internalID: -467243247140667348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_46
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 278
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40b857ad348adba10800000000000000
+      internalID: 1926881224965851908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_47
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 278
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3c553d7ca1424f40800000000000000
+      internalID: 5711199486550039611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_48
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 275
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 663fa3915c56e8830800000000000000
+      internalID: 4075306610023134054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_49
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 274
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e241c5e112ba79ae0800000000000000
+      internalID: -1542576188619484114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_50
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 273
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ad093ed32ea7b220800000000000000
+      internalID: 2501659587102969255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_51
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 278
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad3dfd9b4005d6960800000000000000
+      internalID: 7596816127672439770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_52
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 214
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0538c459dee82680800000000000000
+      internalID: -8779504856361061110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_53
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 214
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cce1620147eaf870800000000000000
+      internalID: 8717534295127878850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_54
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 214
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7710d8a39cd2add0800000000000000
+      internalID: -2476174318349838466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_55
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 214
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d147b2fc57c9a830800000000000000
+      internalID: 4083013739211080151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_56
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 214
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fed71d66de84ece50800000000000000
+      internalID: 6831477869237075439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_57
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 214
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9018c43e3d2ae3900800000000000000
+      internalID: 666148825832653065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_58
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 150
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd57b1fb106e03dc0800000000000000
+      internalID: -3661173601876609571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_59
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 150
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 559a6b7e24e131e80800000000000000
+      internalID: -8209184423062099627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_60
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 150
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28bdb09b459f37dc0800000000000000
+      internalID: -3642293531335468158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_61
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 150
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5544fddafa73d63d0800000000000000
+      internalID: -3211849731569400747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_62
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 148
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 840aac71c0a660850800000000000000
+      internalID: 6342873725369229384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_63
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 150
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb9acd53bdad5d7b0800000000000000
+      internalID: -5200009559693022789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_64
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 86
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef15ccb3d7c011810800000000000000
+      internalID: 1734181063528043006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_65
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 86
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58880db3fe0296500800000000000000
+      internalID: 389879054617053317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_66
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 86
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39feea9261c0c0f40800000000000000
+      internalID: 5695940918044979091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_67
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 86
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83a934ed41c205c20800000000000000
+      internalID: 3193100603945622072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_68
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 83
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d56af6eb7cdf8b60800000000000000
+      internalID: 7750655908442170836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_69
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 85
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59d4ba77de7292560800000000000000
+      internalID: 7289401372744306069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_70
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 22
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67e51b1a327a499a0800000000000000
+      internalID: -6227168613268103562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_71
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 22
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e356deee139fdc450800000000000000
+      internalID: 6110814262268880190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_72
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 22
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95ba14fc4742a86c0800000000000000
+      internalID: -4140456823301756071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_73
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 22
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8592bf5b6ea853a30800000000000000
+      internalID: 4194411351465732440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_74
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 22
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c19dd9776ba3b5610800000000000000
+      internalID: 1610945847080376604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer_Bubaleftz_75
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 22
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ee7bcb3d768daef0800000000000000
+      internalID: -95272144672686362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Farmer_Bubaleftz_0: 1213951636909627421
+      Farmer_Bubaleftz_1: -7844182557515815905
+      Farmer_Bubaleftz_10: 4000462804022106207
+      Farmer_Bubaleftz_11: -1446903656787071249
+      Farmer_Bubaleftz_12: -8000555191527790148
+      Farmer_Bubaleftz_13: -7134502411899257793
+      Farmer_Bubaleftz_14: -1871029337093707135
+      Farmer_Bubaleftz_15: 1847179830950779528
+      Farmer_Bubaleftz_16: -749208617865671633
+      Farmer_Bubaleftz_17: -5126021192577150405
+      Farmer_Bubaleftz_18: -950768312074208237
+      Farmer_Bubaleftz_19: -2485263464672297158
+      Farmer_Bubaleftz_2: 5764044404229093787
+      Farmer_Bubaleftz_20: -7969737183147952970
+      Farmer_Bubaleftz_21: -6201834646706078949
+      Farmer_Bubaleftz_22: 1716131314338222812
+      Farmer_Bubaleftz_23: -6317696610993925846
+      Farmer_Bubaleftz_24: 8098904391930626809
+      Farmer_Bubaleftz_25: -1881201858877505466
+      Farmer_Bubaleftz_26: -1407527792030220156
+      Farmer_Bubaleftz_27: -3323098168348189739
+      Farmer_Bubaleftz_28: -2990870628976400554
+      Farmer_Bubaleftz_29: -1214013901171036656
+      Farmer_Bubaleftz_3: 5292602445474771250
+      Farmer_Bubaleftz_30: 8371870811426689562
+      Farmer_Bubaleftz_31: 5675357416066143876
+      Farmer_Bubaleftz_32: 1093264593186640114
+      Farmer_Bubaleftz_33: -6780382370997905428
+      Farmer_Bubaleftz_34: 9090037662551862307
+      Farmer_Bubaleftz_35: 7397020217107564432
+      Farmer_Bubaleftz_36: -839084372254096771
+      Farmer_Bubaleftz_37: -834354206032538658
+      Farmer_Bubaleftz_38: -2276592042988480138
+      Farmer_Bubaleftz_39: 417236606527410920
+      Farmer_Bubaleftz_4: 3720511542332492980
+      Farmer_Bubaleftz_40: -1452555162001891657
+      Farmer_Bubaleftz_41: -111649853114587352
+      Farmer_Bubaleftz_42: 4917565176685130706
+      Farmer_Bubaleftz_43: 8741390765362104825
+      Farmer_Bubaleftz_44: 6637688967270740652
+      Farmer_Bubaleftz_45: -467243247140667348
+      Farmer_Bubaleftz_46: 1926881224965851908
+      Farmer_Bubaleftz_47: 5711199486550039611
+      Farmer_Bubaleftz_48: 4075306610023134054
+      Farmer_Bubaleftz_49: -1542576188619484114
+      Farmer_Bubaleftz_5: 8335161939511588845
+      Farmer_Bubaleftz_50: 2501659587102969255
+      Farmer_Bubaleftz_51: 7596816127672439770
+      Farmer_Bubaleftz_52: -8779504856361061110
+      Farmer_Bubaleftz_53: 8717534295127878850
+      Farmer_Bubaleftz_54: -2476174318349838466
+      Farmer_Bubaleftz_55: 4083013739211080151
+      Farmer_Bubaleftz_56: 6831477869237075439
+      Farmer_Bubaleftz_57: 666148825832653065
+      Farmer_Bubaleftz_58: -3661173601876609571
+      Farmer_Bubaleftz_59: -8209184423062099627
+      Farmer_Bubaleftz_6: 3532162715940908282
+      Farmer_Bubaleftz_60: -3642293531335468158
+      Farmer_Bubaleftz_61: -3211849731569400747
+      Farmer_Bubaleftz_62: 6342873725369229384
+      Farmer_Bubaleftz_63: -5200009559693022789
+      Farmer_Bubaleftz_64: 1734181063528043006
+      Farmer_Bubaleftz_65: 389879054617053317
+      Farmer_Bubaleftz_66: 5695940918044979091
+      Farmer_Bubaleftz_67: 3193100603945622072
+      Farmer_Bubaleftz_68: 7750655908442170836
+      Farmer_Bubaleftz_69: 7289401372744306069
+      Farmer_Bubaleftz_7: -6970520053361324644
+      Farmer_Bubaleftz_70: -6227168613268103562
+      Farmer_Bubaleftz_71: 6110814262268880190
+      Farmer_Bubaleftz_72: -4140456823301756071
+      Farmer_Bubaleftz_73: 4194411351465732440
+      Farmer_Bubaleftz_74: 1610945847080376604
+      Farmer_Bubaleftz_75: -95272144672686362
+      Farmer_Bubaleftz_8: -6531788836239516720
+      Farmer_Bubaleftz_9: 7364860285436606572
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

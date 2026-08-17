@@ -54,12 +54,14 @@ public class PlayerController : MonoBehaviour
    public TileBase[] erdeTiles;
    public TileBase[] steinTiles;
    public TileBase[] grasTiles;
+   public TileBase[] feldTiles;
 
    public AudioSource audioSource;
 
    public AudioClip erdeSound;
    public AudioClip steinSound;
    public AudioClip grasSound;
+   public AudioClip feldSound;
    public AudioClip attacksucess;
    public AudioClip attackfail;
 
@@ -167,6 +169,8 @@ public class PlayerController : MonoBehaviour
     }
     else if (System.Array.Exists(grasTiles, tile => tile == currentTile))
       audioSource.PlayOneShot(grasSound);
+    else if (System.Array.Exists(feldTiles, tile => tile == currentTile))
+      audioSource.PlayOneShot(feldSound);
    }
 
    public void ChangeHealth(int amount)

@@ -16,7 +16,8 @@ MonoBehaviour:
   itemSprite: {fileID: -5709444697936806870, guid: c5f233c7830f8e94d9d15769068ccff6, type: 3}
   itemDescription: an apple a day keeps the doctor away
   isGold: 0
-  itemHealth: 0
+  isMusicSheet: 0
+  itemHealth: 1
   maxHealth: 0
   attackDamage: 0
   speed: 0
