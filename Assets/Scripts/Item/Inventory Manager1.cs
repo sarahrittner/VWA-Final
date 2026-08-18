@@ -9,6 +9,7 @@ public class InventoryManager : MonoBehaviour
     public TMP_Text tMP_Text;
     public useItem useItem; // Reference to the useItem script
     public itamSO itamSO;
+    public CanvasGroup canvasGroup;
 
 
     void Start()
@@ -65,28 +66,45 @@ public class InventoryManager : MonoBehaviour
     }
 
     public void UseItem(Inventoryslots slot)
+    {        
+
+    if (slot.item == null)
+        return;
+
+    // Notenblatt
+    if (slot.item.isMusicSheet)
     {
-        if (slot.item != null && slot.quantity >= 0)
+        if (canvasGroup.alpha == 0)
         {
-            // Implement your logic for using or equipping the item here
-            Debug.Log($"Using {slot.item.itemName}");
-            useItem.ApplyItemEffect(slot.item); // Call the method to apply the item's effect
-
-            slot.quantity--; // Decrease the quantity of the item
-            if (slot.quantity <= 0)
-            {
-                slot.item = null; // Clear the item if quantity reaches zero
-            }
-            slot.UpdateUI(); // Update the UI to reflect the changes
-
-
+            canvasGroup.alpha = 1;
+        }
+        else
+        {
+            canvasGroup.alpha = 0;
         }
 
-        if (slot.item != null && itamSO.isMusicSheet == true)
-        {
-            
-        }
+        return;
     }
+
+    // Normales Item
+    if (slot.quantity > 0 && slot.item.isMusicSheet == false)
+    {
+        Debug.Log($"Using {slot.item.itemName}");
+
+        useItem.ApplyItemEffect(slot.item);
+
+        slot.quantity--;
+
+        if (slot.quantity <= 0)
+        {
+            slot.item = null;
+        }
+
+        slot.UpdateUI();
+    }
+}
 
 
 }
+
+

@@ -16,7 +16,7 @@ public class Wandering1 : MonoBehaviour
     public float speed;
     public Vector2 target;
     public float pausedur;
-    private bool ispaused;
+    public bool ispaused;
     public Animator animator;
     public CircleCollider2D circleCollider2D;
     public PlayerController pc;

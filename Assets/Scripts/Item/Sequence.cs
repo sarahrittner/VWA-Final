@@ -3,9 +3,10 @@ using System.Collections.Generic;
 
 public class Sequence : MonoBehaviour
 {
-
-    private int currentStep;    
+    //static = alle Grocken haben den gleichen currenstate
+    private static int currentStep;    
     public GameObject tree;
+
 
     void Start()
     {

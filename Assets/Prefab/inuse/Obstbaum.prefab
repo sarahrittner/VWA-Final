@@ -106,7 +106,7 @@ CircleCollider2D:
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 4294967295
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -149,5 +149,5 @@ MonoBehaviour:
   - {fileID: 7250559339547654343, guid: c81cb7a7d2b01304aaab49182fc67321, type: 3}
   - {fileID: 7250559339547654343, guid: c81cb7a7d2b01304aaab49182fc67321, type: 3}
   - {fileID: 7250559339547654343, guid: c81cb7a7d2b01304aaab49182fc67321, type: 3}
-  maxItems: 5
+  maxItems: 3
   respawnTime: 30

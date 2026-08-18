@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.Rendering;
 
 public class slimecontroller : MonoBehaviour
 {
@@ -27,6 +28,11 @@ public class slimecontroller : MonoBehaviour
     public GameObject item;
     public Vector2 pos;
     public Quaternion rot;
+    public float respawntimer;
+    public Vector2 voidpos;
+    public float height;
+    public float width;
+    public Vector2 startpos;
 
 
 
@@ -65,11 +71,6 @@ public class slimecontroller : MonoBehaviour
             }
 
 
-            if (currentHealth <= 0)
-            {
-                // Implement logic for when the slime's health reaches zero
-                Destroy(gameObject);
-            }
 
         }
 
@@ -129,13 +130,12 @@ public class slimecontroller : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        // Debug.Log("Slime collider tiggered");
         if (collision.CompareTag("Player"))
         {
   
-            
+            Debug.Log("es ist Spieler!");
             target = collision.transform;
-            
-            
             
             rb.linearVelocity = Vector2.zero;
             ChangeState(EnemyState.chase);
@@ -220,12 +220,42 @@ public class slimecontroller : MonoBehaviour
    {
         if (currentHealth <= 0)
         {
-            // Implement logic for when the slime's health reaches zero
-            Instantiate(item, pos, rot);
-
-            Destroy(gameObject);            
+            Die();
         }
    }
+
+   void Die()
+    {
+     // Implement logic for when the slime's health reaches zero
+     currentHealth = maxHealth;
+     ChangeState(EnemyState.idle);   
+     Instantiate(item, pos, rot);
+     transform.position = voidpos;
+     StartCoroutine(Spawner());
+            
+    }
+
+    IEnumerator Spawner()
+    {
+        Wandering1 wandering1 = GetComponent<Wandering1>();
+        wandering1.target = Vector2.zero;
+        rb.constraints = RigidbodyConstraints2D.FreezePosition;
+        yield return new WaitForSeconds(respawntimer);
+        rb.constraints = RigidbodyConstraints2D.None;
+
+        float randomX = Random.Range(
+            startpos.x - width / 2,
+            startpos.x + width / 2);
+
+        float randomY = Random.Range(
+            startpos.y - height / 2,
+            startpos.y + height / 2);
+
+        transform.position = new Vector2(randomX, randomY);
+
+
+
+    }
 
     
 }

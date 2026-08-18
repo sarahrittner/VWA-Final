@@ -28,13 +28,17 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: -0.26770693
       objectReference: {fileID: 0}
+    - target: {fileID: 8139747361158201138, guid: 5a94ebada819c5c418eabbf294bcf472, type: 3}
+      propertyPath: m_IncludeLayers.m_Bits
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8336113591837255797, guid: 5a94ebada819c5c418eabbf294bcf472, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.21
+      value: -4.256303
       objectReference: {fileID: 0}
     - target: {fileID: 8336113591837255797, guid: 5a94ebada819c5c418eabbf294bcf472, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.94
+      value: 5.4213085
       objectReference: {fileID: 0}
     - target: {fileID: 8336113591837255797, guid: 5a94ebada819c5c418eabbf294bcf472, type: 3}
       propertyPath: m_LocalPosition.z

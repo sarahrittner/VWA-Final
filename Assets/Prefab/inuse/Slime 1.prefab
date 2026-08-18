@@ -175,7 +175,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 4294967295
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -205,6 +205,11 @@ MonoBehaviour:
   item: {fileID: 1179776047328337948, guid: 37081f85229985c429950d8576105982, type: 3}
   pos: {x: 0, y: 0}
   rot: {x: 0, y: 0, z: 0, w: 0}
+  respawntimer: 20
+  voidpos: {x: -10, y: 4}
+  height: 21
+  width: 22
+  startpos: {x: 20, y: 9}
   cc: {fileID: 3711358471980971548}
 --- !u!58 &2405364431003747327
 CircleCollider2D:
